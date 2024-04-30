@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>【様式】_AI実習2024A課題レポート(20122072)(山口翔太).md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="ai%E5%AE%9F%E7%BF%922024-%E8%AA%B2%E9%A1%8C%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88">AI実習2024　課題レポート</h1>
+<h2 id="%E7%AC%AC1%E5%9B%9E%E7%AC%AC3%E5%9B%9E">[第1回～第3回]</h2>
+<ul>
+<li><strong>課題期間</strong>：   2024/4/11,18,25(水)</li>
+<li><strong>課題提出期限</strong>：　2024/5/2(水) 19:00</li>
+</ul>
+<!-- 要 記述 -->
+<table>
+<thead>
+<tr>
+<th style="text-align:center">クラス</th>
+<th style="text-align:center">学籍番号</th>
+<th style="text-align:center">氏    名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">20122072</td>
+<td style="text-align:center">山口翔太</td>
+</tr>
+</tbody>
+</table>
+<h2 id="%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90%E6%89%8B%E9%A0%86-%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A6%E3%83%B3%E8%A8%98%E6%B3%95">レポートの作成手順 (マークダウン記法)</h2>
+<ul>
+<li>マークダウン記法[^1][^2][^3][^4]でレポートを作成する</li>
+<li>テキストエディタ＋機能拡張をインストール：</li>
+<li>VSCode  https://code.visualstudio.com/download#</li>
+<li>機能拡張(Markdown PDF, Markdown Preview Enhanced ) セットアップ</li>
+<li>ファイル名は、<code>AI実習2024A課題レポート(学籍番号)(学生氏名).md </code></li>
+<li>作成したらPDFファイル、HTMLファイルを変換生成する</li>
+</ul>
+<h4 id="%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A6%E3%83%B3%E8%A8%98%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%82%8F%E3%81%8B%E3%82%8A%E3%82%84%E3%81%99%E3%81%84%E8%AA%AC%E6%98%8Eweb%E6%83%85%E5%A0%B1">マークダウン記法についてわかりやすい説明、Web情報</h4>
+<p><a href="https://www.bing.com/videos/riverview/relatedvideo?q=%e3%83%9e%e3%83%bc%e3%82%af%e3%83%80%e3%82%a6%e3%83%b3%e8%a8%98%e6%b3%95&amp;mid=4EE93F5EF42F9CAD0CCC4EE93F5EF42F9CAD0CCC&amp;FORM=VIRE">マークダウン記法とは？</a>
+<a href="https://qiita.com/miriwo/items/28d80f46c857de49f34b">Markdown記法～基礎編～</a>
+<a href="https://qiita.com/miriwo/items/28d80f46c857de49f34b">マークダウン記法一覧</a>
+<a href="https://backlog.com/ja/blog/how-to-write-markdown/">マークダウンの書き方</a></p>
+<p>[^2]:(https://qiita.com/miriwo/items/28d80f46c857de49f34b) Markdown記法～基礎編～
+[^3]:(https://www.sejuku.net/blog/77398)マークダウン記法一覧
+[^4]:(https://backlog.com/ja/blog/how-to-write-markdown/)マークダウンの書き方</p>
+<h3 id="%E5%A4%96%E9%83%A8%E3%83%84%E3%83%BC%E3%83%AB%E7%94%BB%E9%9D%A2%E3%81%AE%E5%9B%B3%E5%BC%8F%E5%BC%95%E7%94%A8">外部ツール画面の図式引用</h3>
+<ul>
+<li>本様式をひな型とする</li>
+<li>様式中に、マークダウンのコメントとして
+　　<code>&lt;!-- 要 記述　回答 --&gt;</code> と記されている箇所は忘れずに適切な記述を加筆する</li>
+<li>図やスクリーンショットを引用する場合、フォルダにまとめておく</li>
+<li>1つのレポートにつき、1つのフォルダを用意する</li>
+<li>そのフォルダに、md, pdf,html,および, 引用で使用したjpg,png等ファイルをまとめて配置する</li>
+<li>$MR^3$で作成したRDFは、スクリーンショット画像として本文に取り込む</li>
+<li>$Protege$で作成したオントロジは、<code>OWL/XML Syntax</code> 形式で、<code>file名.owl</code>　として保存する</li>
+<li>$Protege$で作成したLODは、<code>RDF/XML Syntax</code> 形式で、<code>file名.owl</code>　と保存する</li>
+<li>$Sparql$のソースコードは、マークダウン形式に、引用によって記述する</li>
+</ul>
+<pre class="hljs"><code><div>  　Sparqlのクエリコードを　```sql  と ```　で囲み、クエリの実行結果も　``` ``` で囲む
+</div></code></pre>
+<h3 id="%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E6%8F%90%E5%87%BA%E6%96%B9%E6%B3%95-github%E3%81%AE%E3%83%97%E3%83%A9%E3%82%A4%E3%83%99%E3%83%BC%E3%83%88%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89">レポート提出方法 Githubのプライベートリポジトリにアップロード</h3>
+<ul>
+<li>
+<p>2学年4学期の<strong>API実習と同じ方法</strong></p>
+</li>
+<li>
+<p>Githubのアカウントを作成し、<strong>Practice-AI-2024</strong> という名称でプライベートリポジトリを作成</p>
+</li>
+<li>
+<p>そのプライベートリポジトリに、指導員のGithubアカウント= <strong>keythrive</strong>を招待する</p>
+</li>
+<li>
+<p>Githubのプライベートリポジトリに次の名前で、6つフォルダを用意する：</p>
+<ul>
+<li><strong>report1-3</strong></li>
+<li><strong>report4-6</strong></li>
+<li><strong>report7-9</strong></li>
+<li><strong>report10-12</strong></li>
+<li><strong>report13-15</strong></li>
+<li><strong>report-Final</strong></li>
+</ul>
+</li>
+<li>
+<p>Githubのアカウント名、プライベートリポジトリ作成、6つのフォルダをつくったか？招待を完了したか？について、FORMSアンケートするので必ず回答すること。</p>
+</li>
+<li>
+<p>FORMSアンケートはこちら：</p>
+<ul>
+<li>https://forms.office.com/r/6iMLLYjw1t</li>
+</ul>
+</li>
+<li>
+<p>FORMSアンケートに未回答の場合、レポートを取得する方法が確立しないので、必ず回答のうえレポート提出可能な状態にすること</p>
+</li>
+<li>
+<p>それぞれの提出期限までに、必要なファイル一式を当該フォルダにアップロードしておく</p>
+</li>
+<li>
+<p>〆切時刻を過ぎた時点で自動的に, 全員のGithubプライベートリポジトリから、<code>git clone</code>などでファイルを一括ダウンロードする</p>
+</li>
+<li>
+<p>提出が遅れるとダウンロードできず、未提出と判断される</p>
+</li>
+<li>
+<p>真に止むを得ない事由で、提出期限が遅れる場合、事前にメールにて連絡・相談すること:</p>
+</li>
+<li>
+<p>mailto:  <strong>horikawa.keitaro@kaishi-pu.ac.jp</strong></p>
+</li>
+<li>
+<p>事前連絡なしに、期限を過ぎた場合、その課題レポートは未提出として採点しない</p>
+</li>
+<li>
+<p>Githubのアカウント登録、プライベートリポジトリ、ファイルアップロードが不明な場合は、必ず事前に確認・相談するか、すでに出来ている友達から教えてもらうこと</p>
+</li>
+</ul>
+<hr>
+<h2 id="%E8%AA%B2%E9%A1%8C%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AE%E3%81%BE%E3%81%A8%E3%82%81%E6%96%B9">課題レポートのまとめ方</h2>
+<ul>
+<li>直近のグループ実習3回分をまとめて1つのレポートを作成する</li>
+<li>毎回休まずに出席して、グループ討論に積極的に参画する</li>
+<li>グループを代表して発表し、質疑応答、議論、メモを確実にとる作業が大切</li>
+<li>自グループと他グループの発表をしっかり聴いて、議論模様を簡潔にまとめて報告する</li>
+<li>それぞれの回の全てのグループ発表、および、</li>
+<li>学生と教員からの質疑コメントを要約する</li>
+<li>ここまではグループメンバ間の協力作業で、差異化要素はほとんどないことが予想される</li>
+<li>自作の成果（RDF,オントロジ等）には極力 &quot;FOAF,SKOS,DC&quot;など共通語彙を適用する</li>
+<li><strong>個人の努力を差異化要素</strong>として、さらに踏み込んだ検討・実習の成果を3回分の<strong>個人演習</strong>について報告してよい</li>
+<li>3回で取り組んだ内容、理解を深めたことを独自レポートとして加筆可能</li>
+<li>例えば、<strong>作成したRDF,オントロジ,使用したLOD, 作成したSparqlクエリ,その他のAI手法やプログラムとの連携技、それらの分析・考察・所感</strong>　など</li>
+</ul>
+<h3 id="%E6%9C%AC%E5%AE%9F%E7%BF%92%E3%83%BB%E8%AA%B2%E9%A1%8C%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AB%E5%8F%96%E3%82%8A%E7%B5%84%E3%82%80%E6%84%8F%E7%BE%A9">本実習・課題レポートに取り組む意義</h3>
+<ul>
+<li>半年後、本実習を「適当にやり過ごした学生群」と、「真剣に打ち込んで突き詰めた学生群」に明確に分かれることが予想される</li>
+<li>前者と後者とで、成長の差は著しく広がり、臨地実務実習IIの実習成果および企業担当者から評価が如実に変わる</li>
+<li>1年後の今頃、就職活動の内々定数（場合によっては、転職ファストパスの数）が大きく変わることが見込まれる</li>
+</ul>
+<hr>
+<h3 id="%E7%AC%AC1%E5%9B%9E%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E8%AA%B2%E9%A1%8C%E3%81%AE%E8%A6%81%E7%B4%84%E3%83%BB%E6%95%B4%E7%90%86">第1回グループ課題の要約・整理</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong>有言実行</strong></td>
+<td>倉石 大暉</td>
+<td>rdfで構造化することで、検索クエリの精度を向上させることができる。AIが言葉の意味をrdfを通して理解することができれば、回答が正確になると考える。</td>
+<td>rdf自体が、AIの開発につながるのではないかという点について、話を聞いて納得した。</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong>点滴穿石</strong></td>
+<td>大竹啓之</td>
+<td>rdfはもの同士の関係を作る。例として薬。効能やIDなどを薬と関連づけられる。記述の方法が、見方さえわかっていれば、情報の共有が楽。見やすい。だが、書き方がある程度決まっているため、アレンジできないため、つまらない。表現方法はコンテナ方式がいいと考えていた。薬を表現したい。関連づけられるものが多くあるため。表現した際に、需要もあると考える。情報量が増えるため、書くのが難しくなるのではと考えていた。rdfは今後伸びると考えている。そのため、記述方式をフレームに当てはめるだけで、簡単にrdfが作成することができるようにすることで、使いやすくなり、良いのではないかと考えていた。</td>
+<td>薬をどのようにrdf化するかということに対して、薬は種類が多いため、成分・効能・IDなどで関連づけられると言っていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong>初志貫徹</strong></td>
+<td>ＲＯＧＥＲ ＭＡＲＶＩＮ</td>
+<td>rdfはowlなどと比べると簡単。だが、複雑な記述ができない。rdfは、データの収集がしやすい。</td>
+<td>wikipediaはrdfの考え方を使用していると考えている。</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong>万里一空</strong></td>
+<td>加藤 颯士</td>
+<td>主語・述語・目的語としてまとめられているから。面白い点として、さまざまなデータが存在している点。機械で使用できるという点。面白くない点として、わかりづらい点が多少ある。turtleがいい。人間が読み書きしやすいため。活用方法として、生物学など。遺伝子などの関連。rdfの矢印の向きが日本人的には理解しにくいのではないかと考えている。rdfをローコードで記述できれば使いやすくわかりやすいのではないかと述べていた。</td>
+<td>rdfのローコードの記述法の開発が、rdfの発展につながるということに納得した。</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong>勇往邁進</strong></td>
+<td>小林 相太・溝口 将太</td>
+<td>主語・述語・目的語の３つで表現するため、知識を表現しやすい。rdfの面白さとして、データとデータを関連づけられる点で、データを１からrdf化する際に時間がかかる点が面白くない。turtleがいいと考えていて、理由として、人間でも理解しやすいということを述べていた。また、コメントなどを記述できるため、良いと考えている。患者のカルテをrdfにするのが良い。理由として、情報量が多いため管理が楽なのでは。使いやすくするために、簡単な操作でできるようなフレーム、rdfについてのチュートリアルを作成するのが良いのではないかと考えていた。</td>
+<td>具体的にどのように使いやすくするのかという質問について、rdfについて全く知らない人にチュートリアルや枠組みを作成する。なぜカルテがいいのかという点に対して、カルテがわかりやすくなるのではと回答していた。だが、データベースの方がrdfより楽なのではという疑問が上がっていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center"><strong>一暴十寒</strong></td>
+<td>齋藤杏祐</td>
+<td>主語・述語・目的語としてまとめられているから、一目で見てわかる。関連づいていくのが面白い。書くのが大変。複雑にできない。表現方法として共通のものにできるため、面白い。turtleがいい。xmlと比べて記述量が少ない。情報が増えた際に、理解が大変。俳優と出演作品などをrdfで関連づけるのは良いのではないかと考える。理由として、需要があると考えているため。記述方法を知っていないと記述が大変。勉強しないと、記述の仕方がわからない。そのため、簡単に記述できるツールが良いのではないかと考えている。</td>
+<td>使いやすくするため、ノーコードツールの開発などが良いと考えている。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="%E7%AC%AC2%E5%9B%9E%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E8%AA%B2%E9%A1%8C%E3%81%AE%E8%A6%81%E7%B4%84%E3%83%BB%E6%95%B4%E7%90%86">第2回グループ課題の要約・整理</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong>有言実行</strong></td>
+<td>駒木根 通元</td>
+<td>避難所データには知識が必要。収容人数・避難ルートなど。データにより、どこに避難すればいいかわかる。これがないと、適切に避難できない。渋滞・混乱など。必要な知識をRDFで表現すると、知らない土地でも安全安心に避難可能。RDFはデータで表現可能。データベースだと後でデータを追加しにくい。RDFは追加しやすい。データの結合が楽などのメリットがある。例えば、正式名称がわからない場合に、正式名称でなくても調べられる。RDFを使うと見やすい・わかりやすい。コメント・追加機能があれば、もっと良い避難所データになるのではないかと考えている。</td>
+<td>コメント追加機能については、あったらいいなと考えている。駐車場の数はいるかという質問について、駐車場は、避難所がオーバーした際に、活用できるので、あるといいということを言っていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong>点滴穿石</strong></td>
+<td>大竹 啓之</td>
+<td>避難所を管理するために、知識・データが必要になるから。また、利用者としても、避難場所を知っておくことのメリットが多くあるから。データがあることで、迅速な避難につながる・対策などを考えやすくなる。データがないと、適切な避難ができなくなる・支援が遅れるなど。RDF表現のメリットとして、名称が違うが、本質的には同じものをまとめられるというメリットがある。グラフで表現するため、ぱっと見でわかる。作るとしたら、災害種別などからデータを広げていきたい。使いやすくするために、URIなどを持ってきて、データを増やすなどが必要。</td>
+<td>避難所の収容人数をオーバーした場合はどうするかということに対して、考えていなかったと答えていた。災害の種類で、対応しているとこだけで避難所を絞るなどしたり、周辺のデータだけ表示するようにしたら良いのではないかということについて、導入したいと答えていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong>初志貫徹</strong></td>
+<td>ＲＯＧＥＲ ＭＡＲＶＩＮ</td>
+<td>RDFのメリットとして、短時間でデータにアクセス可能なため、避難に役立つ。ユースケースとして、GPSから近くの避難所を割り出すなど。RDFには、避難所の詳しい情報を記載するのが良い。メリットは、早く避難できる・支援を円滑にできる。ネットワークが切られた際に、得られる情報がなくなるというデメリットがある。</td>
+<td>RDFを見る時間もない場合は、どうするべきかということについて、諦めるしかないと答えていた。また、この点が、RDFのデメリットでもあると答えていた。また、音声による支援があったら良いのではないかと考えている。</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong>万里一空</strong></td>
+<td>加藤 颯士</td>
+<td>避難所データの必要性として、安全になる・支援がスムーズになるなどの理由から。要件は場所・アクセス方法・収容人数・過去の利用歴・災害種別・ペット・プライバシーなど。便利なことは、被災者にとって避難が楽。自衛隊などの救援がやりやすくなるなど。ないと、避難所の場所が知らないと辿り着けなくなる。データ活用により、あたりの環境を把握して必要な物資の支援が可能。過去のデータから予測を立てやすい。リアルタイムで追加しやすいなど。 資源をリアルタイムで追加する機能があったら面白い。昔のその土地の情報などがあったら面白い。気温・湿度など。避難者に想定されること。設備・薬など。支援のしやすさなどがあったら面白い。RDFを使って、データの見方がわからない人に対して、アプリケーションを作るのがいいと考えている。</td>
+<td>情報の信憑性をどのように担保するかという点について、考えていなかったと答えていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong>勇往邁進</strong></td>
+<td>小林 相太　南波 光希　溝口 将太　小林 智稀</td>
+<td>知識を持っていることで、安全に避難が可能。便利なこととして、地図上のマップによって可視化、避難所の検索などが可能。データがあることで、適切な避難ができないといった問題を減らせるのでは。データ共有がしやすくなることで、リアルタイムで使用人数がわかるなどのメリットがある。データの活用例として、住所や物資などを知ることができる。使いやすくするために、現在地から避難所を検索できるようにしたいと考えている。マイナンバーを使いたいとも考えている。</td>
+<td>マイナンバーを使うとはどういうことかという質問に対して、マイナンバーを使うことで、避難している場所などがわかり、安心できると回答していた。</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center"><strong>一暴十寒</strong></td>
+<td>臼田 誠</td>
+<td>災害の種類などによって避難の方法が変わるため、知識は必要。避難所データのメリットとして、土地を知らない人でも避難所データ・避難データがわかる。これがないと、備蓄品などがわからず、トラブルの原因になるかも。使いやすくするには、距離から絞り込み機能を追加する。バリアフリーなどの情報を追加するなど。</td>
+<td>半径２キロから避難所をさがすと言っていたが、大津波が来た際に、避難所として使えなくなる可能性があるのではという点について、それは事前に調べるしかないという回答をしていた。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="%E7%AC%AC3%E5%9B%9E%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E8%AA%B2%E9%A1%8C%E3%81%AE%E8%A6%81%E7%B4%84%E3%83%BB%E6%95%B4%E7%90%86">第3回グループ課題の要約・整理</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong>有言実行</strong></td>
+<td>全員</td>
+<td>肯定理由１、YouTubeやSNSは広告で収益化。広告によってユーザの時間消費。反論１、優位性、完全な競争社会は、消費者の購買意欲があってこそであるため、無償公開だとその購買意欲を削いでしまうことにつながる。お金がかかるのは、信ぴょう性がある・安心できるということの証明になる。このことから有料化を主張する。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong>点滴穿石</strong></td>
+<td>全員</td>
+<td>セマンティックウェブがある国の取り組みとして新しい論文はPDF化されている。国内の論文は、linkedopendataで繋がっているという実例あり。反論１、国が実際に公開したものが存在する。また、個人のものでも、科学的に証明されているものなど、説得力が十分であるものもある。理由２、毎年公開された論文をRDFで公開しているものもある。反論２、政府や論文などにも利用されている事例もある。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong>初志貫徹</strong></td>
+<td>全員</td>
+<td>反論１、どのようにして持続的なのか。理由１、データが広大・非専門的。データ分析が困難。機密性が低い。反論２、お金がかからないことは、情報の信憑性を欠いてしまう場合あり。理由２、データAPIとLODの組み合わせでカバーできるのでは。安全性、代替品の関係よりLODは不要である。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong>万里一空</strong></td>
+<td>全員</td>
+<td>SNSはデータのWEBであるため危険である。理由１、データのWEB公開は、コスト・セキュリティ・プライバシーの問題が絡んでくる。コストに対してリスクが大きい。従来のドキュメントで十分である。理由２、リアルタイムでの更新が可能であるため、複数人の操作により、データの整合性を損なう可能性あり。また、改変が可能であるため、危険。ドキュメントは、データ改変の追跡ができるためデータWEBよりも安全。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong>勇往邁進</strong></td>
+<td>全員</td>
+<td>データをWEBで公開することは、データ自体に意味を持たせることにつながる。セキュリティに関することについて、データのバックアップを定期的に行うことでデータの維持ができるため、問題ないと言っていた。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center"><strong>一暴十寒</strong></td>
+<td>全員</td>
+<td>データの無償公開は社会の発展促進につながる。公共交通機関のルート検索サービスなど。有償で公開する場合、力のある政府などの機関でないと、優位性、無償公開で取り組みのきっかけになる。また、有償という点は、不平等につながるため、無償化を主張する。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="%E8%87%AA%E5%B7%B1%E6%88%90%E9%95%B7%E6%88%90%E6%9E%9C%E4%B8%8A%E4%BD%8D%E6%88%90%E7%B8%BE%E3%81%AB%E5%90%91%E3%81%91%E3%81%A6-%E5%80%8B%E4%BA%BA%E6%88%90%E6%9E%9C%E3%81%AE%E5%A0%B1%E5%91%8A">[自己成長、成果、上位成績に向けて]　個人成果の報告</h3>
+<!--
+- **個人の努力を差異化要素**として、さらに踏み込んだ検討・実習の成果を3回分の**個人演習**について報告してよい
+- 3回で取り組んだ内容、理解を深めたことを独自レポートとして加筆可能
+- 例えば、**作成したRDF,オントロジ,使用したLOD, 作成したSparqlクエリ,その他のAI手法やプログラムとの連携技、それらの分析・考察・所感**　など
+-->
+<p>第一回では、RDFの意義についてインターネットを使って調べ、特徴などを報告した。また、グループの人が話した内容をメモし、まとめてみるなどのことをした。第二回では、MR3を使用してRDFを作成した。また、sqarqlを使用してRDFに書き込む情報を検索した。</p>
+<hr>
+<h2 id="%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85">注意事項</h2>
+<ul>
+<li>直近3回分の個人演習と毎回のグループ課題の実施結果について、</li>
+<li>学生ごとの個人のレポートとする</li>
+<li>他の学生のレポートをコピー＆ペーストしたことが発覚した場合、<strong>不正行為とみなし 、規程に基づく懲罰適用の可能性があるので絶対にやってはいけない</strong></li>
+</ul>
+<h3 id="%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AEurl">参考文献、URL</h3>
+
+</body>
+</html>
