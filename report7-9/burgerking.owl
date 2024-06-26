@@ -1,0 +1,1204 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56/"
+     xml:base="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:untitled-ontology-56="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/ObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/elements/1.1/ObjectProperty"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/ObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#ObjectProperty"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#related">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#ObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/ObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/ObjectProperty"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/made -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/made">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/ObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/DataProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/DataProperty"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/DataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/DataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#Lサイズ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#Lサイズ">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#値段"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#Mサイズ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#Mサイズ">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#値段"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#Sサイズ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#Sサイズ">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#値段"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#値段 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#値段">
+        <rdfs:comment></rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#DataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#DataProperties"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/DataProperties -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/DataProperties"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/homepage">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/DataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/DataProperties"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#お子様向け -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#お子様向け">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガー -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガー">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガーキング"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ホットドッグ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ホットドッグ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#バーガー"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQ＆チーズホットドッグ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQ＆チーズホットドッグ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ホットドッグ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ポーク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">480</untitled-ontology-56:値段>
+        <rdfs:comment>肉の旨味が溢れ出すソーセージに、ブルズアイBBQソースと特製チーズソースを使用した、コク深く、渋みのあるスモーキーな味わいと、とろりと溶けたチーズソースのマイルドなおいしさが楽しめるホットドッグ</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#りんご -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#りんご">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#わたくしの抹茶パイ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#わたくしの抹茶パイ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#抹茶"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</untitled-ontology-56:値段>
+        <rdfs:comment>京都の老舗「森半」の宇治抹茶を抹茶クリームとパイ生地、両方に使用した、上品な甘さと程よい苦味のなめらかな抹茶クリームをサクサクの抹茶パイ生地で包み、クリームの中にはアクセントとなる北海道産あずきを散りばめた、大人の方にも満足いただけるデザート。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アイスコーヒー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アイスコーヒー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+        <rdfs:comment>アイスコーヒー</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アップルパイ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アップルパイ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#りんご"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140</untitled-ontology-56:値段>
+        <rdfs:comment>アップルパイ</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカド -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカド">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカドワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカドワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">530</untitled-ontology-56:値段>
+        <rdfs:comment>バーガーキング自慢の直火焼きの100％ビーフパティに相性抜群のクリーミーなアボカドを重ね、味のアクセントのピクルス、フレッシュなレタス、トマト、オニオンをまろやかなマヨネーズとケチャップで仕上げた、野菜がたっぷり楽しめるワッパー</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アメリカンBBQ_ビッグマウスバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アメリカンBBQ_ビッグマウスバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1490</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アメリカン_スモーキーチキン4ピース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アメリカン_スモーキーチキン4ピース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アールグレイアイスティー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アールグレイアイスティー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アールグレイアイスティー_ミルク -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アールグレイアイスティー_ミルク">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アールグレイアイスティー_レモン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アールグレイアイスティー_レモン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レモン"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ウーロン茶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ウーロン茶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオンリング -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオンリング">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オレンジ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オレンジ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オレンジジュース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オレンジジュース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オレンジ"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#カップソフトクリーム -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#カップソフトクリーム">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">190</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#クアトロチーズワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#クアトロチーズワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">530</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#クラシックホットドッグ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#クラシックホットドッグ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ホットドッグ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ポーク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">430</untitled-ontology-56:値段>
+        <rdfs:comment>肉の旨味が溢れ出す全米No.1*ソーセージ「ジョンソンヴィル」を、トーストしたソフトフランスロールではさみ、ケチャップ、マスタードで味付けした王道のホットドッグ</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#コカ・コーラ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#コカ・コーラ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#コカ・コーラゼロ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#コカ・コーラゼロ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サンデー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サンデー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">190</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#シーザーサラダ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#シーザーサラダ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ポーク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">370</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジャガイモ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジャガイモ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジンジャエール -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジンジャエール">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スケソウダラ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スケソウダラ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スナックチキン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スナックチキン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スパイシーチキンバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スパイシーチキンバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#香辛料"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スパイシーワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スパイシーワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#香辛料"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スプライト -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スプライト">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スモーキーBBQワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スモーキーBBQワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スモーキーテリヤキバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スモーキーテリヤキバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#照り焼きソース"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#タルタルソース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#タルタルソース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#タルタルチキンバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#タルタルチキンバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#タルタルソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルチーズバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルチーズバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">460</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルベーコンチーズバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルベーコンチーズバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ポーク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">550</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルメキシカン_アボカドワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルメキシカン_アボカドワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1190</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルワッパーチーズ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダブルワッパーチーズ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">640</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダージリンティー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダージリンティー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダージリンティー_ミルク -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダージリンティー_ミルク">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダージリンティー_レモン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ダージリンティー_レモン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レモン"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット5ピース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット5ピース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット8ピース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット8ピース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">350</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット極辛Z5ピース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット極辛Z5ピース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#香辛料"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">270</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット極辛Z8ピース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット極辛Z8ピース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#香辛料"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">410</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット用ソース_追加 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキンナゲット用ソース_追加">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハニーマスタードソース"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チリソース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チリソース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チリチーズフライ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チリチーズフライ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジャガイモ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チリソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズアグリーバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズアグリーバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">890</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズメキシカン_アボカドワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズメキシカン_アボカドワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">940</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#テリヤキワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#テリヤキワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#照り焼きソース"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハッシュブラウン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハッシュブラウン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジャガイモ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハッシュ＆BBQバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハッシュ＆BBQバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#BBQソース"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジャガイモ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">420</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハニーマスタードソース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハニーマスタードソース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビッグチキンフィレ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビッグチキンフィレ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">590</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビッグチキンフィレ_デラックス -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビッグチキンフィレ_デラックス">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チキン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">690</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビッグベット -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビッグベット">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1190</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ファンタ_メロン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ファンタ_メロン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Sサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">330</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#フィッシュバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#フィッシュバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#スケソウダラ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#フレンチフライ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#フレンチフライ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#サイド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ジャガイモ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:Lサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">370</untitled-ontology-56:Lサイズ>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#フロートドリンク -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#フロートドリンク">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#デザート"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">270</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ブレンドコーヒー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ブレンドコーヒー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:Mサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280</untitled-ontology-56:Mサイズ>
+        <untitled-ontology-56:Sサイズ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">230</untitled-ontology-56:Sサイズ>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ポーク -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ポーク">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#メキシカン_アボカドワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#メキシカン_アボカドワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#アボカド"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">840</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レッドブル -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レッドブル">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ドリンク"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レモン -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レモン">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ピクルス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">400</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパーチーズ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパーチーズ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ワッパー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#トマト"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#レタス"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">450</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#抹茶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#抹茶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#照り焼きソース -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#照り焼きソース">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#香辛料 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#香辛料">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#原材料"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズ&amp;チーズ_ビッグマウスバーガー -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#チーズ&amp;チーズ_ビッグマウスバーガー">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ハンバーガー"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#オニオン"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#ビーフ"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#乳製品"/>
+        <terms:hasPart rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/5/untitled-ontology-56#小麦粉"/>
+        <untitled-ontology-56:値段 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1490</untitled-ontology-56:値段>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
