@@ -1,0 +1,2092 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#"
+     xml:base="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#has-a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#has-a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ペアリング"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#充電端子"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#接続方式"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#is-a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#is-a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#接続方式"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#brand -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#brand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#continuousPlaybackTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#continuousPlaybackTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#weight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーディオデバイス"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ペアリング -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ペアリング">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#充電端子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#充電端子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#接続方式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#接続方式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <rdfs:comment>iPhoneやiPadで採用されている。SBCよりも遅延が少ない。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AONIC_50_GEN_2_SBH50G2-BK-J -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AONIC_50_GEN_2_SBH50G2-BK-J">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_HD"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SHURE</brand>
+        <continuousPlaybackTime>45h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45000</price>
+        <weight>334g</weight>
+        <rdfs:comment>調整可能なアクティブノイズキャンセリング技術を備えたワイヤレスノイズキャンセリングヘッドホン。カスタム設計の50mmダイナミックドライバーを使用。
+外音取り込みモードを搭載し、スイッチを切り替えると周囲の音が確認できる。最大45時間連続再生ができ、クイック充電機能に対応。
+USB接続で最大32bit/384kHzのハイレゾストリーミング再生が可能。カスタムEQをアプリで作成し、アプリを使用して好みの音で再生できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ATH-M20xBT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ATH-M20xBT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>オーディオテクニカ</brand>
+        <continuousPlaybackTime>60h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</price>
+        <weight>216g</weight>
+        <rdfs:comment>機能面では、2台同時にワイヤレス機器へ接続できるマルチポイント機能や、音と映像のずれを抑える「遅延モード（Low Latency Mode）」を搭載。急速充電にも対応し、10分の充電で約3時間使用が可能だ。
+
+本体は、プロ仕様のイヤーパッドとヘッドバンド素材により、耐久性を実現したとのこと。このほか、1.2mケーブルを付属し、有線ヘッドホンとしても使用可能だ。
+
+主な仕様は、充電時間が約4時間、使用可能時間が最大約60時間（音楽再生時）。Bluetoothのバージョンは5.0、対応プロファイルがA2DP、AVRCP、HFP、HSP、対応コーデックがAAC、SBCをサポートする。重量は約216g。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ATH-M50xBT2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ATH-M50xBT2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>オーディオテクニカ</brand>
+        <continuousPlaybackTime>50h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24000</price>
+        <weight>307g</weight>
+        <rdfs:comment>独自の45mm大口径ドライバーと専用アンプを搭載したワイヤレスヘッドホン。幅広い周波数帯域で透明感を実現し、深く正確な低音域を再現。
+AKM社製Hi-Fi DAC＆ヘッドホンアンプ「AK4331」を採用。96kHz/24bitに対応し、LDACの高音質コーデックで伝送された音源を高解像度再生できる。
+「低遅延モード」を搭載し、動画視聴やゲームプレイ時に音の遅延の少ない再生を楽しめる。1.2mコードが付属し、電池が切れても有線接続で使用可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AVIOT_TE-W1-PNK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AVIOT_TE-W1-PNK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>プレシードジャパン</brand>
+        <continuousPlaybackTime>16h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17000</price>
+        <weight>6.9g</weight>
+        <rdfs:comment>ハイエンドマルチスペックモデル「TE-W1」をベースモデルとし、ピエール中野氏とコラボレーションした完全ワイヤレスイヤホン。
+「コアキシャル3D（Dual Dynamic Drivers）システム」を採用し、なめらかな音のつながりとすぐれた音場感を実現。
+「アダプティブハイブリッドノイズキャンセリング」を搭載。ワイヤレスでハイレゾ音源を楽しめるLDACに対応する。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_Max -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_Max">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Lightning"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Apple</brand>
+        <continuousPlaybackTime>20h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73000</price>
+        <weight>384.8g</weight>
+        <rdfs:comment>独自の音響設計と左右2つの「H1」チップを搭載した、オーバーイヤー型ワイヤレスヘッドホン。原音に忠実なサウンドを実現する。
+40mm口径のダイナミックドライバーを搭載。深みのある低音域、正確な中音域、明瞭で透き通った高音域の伸びにより、どんな音もはっきりと聞こえる。
+「アダプティブイコライゼーション」「アクティブノイズキャンセリング」「外部音取り込みモード」「空間オーディオ」などのサウンド体験を実現。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_Pro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_Pro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Lightning"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Apple</brand>
+        <continuousPlaybackTime>5h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32000</price>
+        <weight>5.4g</weight>
+        <rdfs:comment>「アクティブノイズキャンセリング」を搭載し、耳に入ってくる音に集中できるカナル型の完全ワイヤレスイヤホン。快適な装着感とすぐれた密閉性を実現。
+専用の高偏位ドライバとひずみの少ないスピーカードライバにより、リッチな低音と正確な中高音域オーディオを安定して提供する。
+軸に配置された感圧センサーで簡単に音楽や通話などをコントロールできる。音楽を聴きながら周囲の音が聞ける「外部音取り込みモード」を備える。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_Pro_第2世代 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_Pro_第2世代">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Lightning"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Apple</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33000</price>
+        <weight>5.3g</weight>
+        <rdfs:comment>H2チップを内蔵し、前世代モデルと比べて最大2倍のノイズキャンセリングを実現した、第2世代の完全ワイヤレスイヤホン「AirPods Pro」。
+タッチコントロールにより、軸部分を軽く上または下にスワイプして素早く音量を調整できる。Apple Watch充電器でも充電が行える。
+第1世代より再生時間が1時間半長くなり、アクティブノイズキャンセリングがオンの状態で合計最大6時間の再生が可能。XSサイズのイヤーチップも同梱。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_第3世代 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AirPods_第3世代">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Lightning"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#インナーイヤー型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Apple</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23000</price>
+        <weight>4.28g</weight>
+        <rdfs:comment>空間オーディオとダイナミックヘッドトラッキングにより、3Dサウンド体験ができる完全ワイヤレスイヤホン。
+独自のダイナミックドライバーとパワフルなカスタムアンプを搭載し、高精細な音質で音楽をレンダリング。通話中に風の音を最小限にする。
+「アダプティブイコライゼーション」で耳の形に合わせて音楽を自動的に調節。フル充電した「MagSafe充電ケース」を使うと合計再生時間は最大30時間。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#DT_770_PRO_X_Limited_Edition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#DT_770_PRO_X_Limited_Edition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>beyerdynamic</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35000</price>
+        <weight>305g</weight>
+        <rdfs:comment>レコーディング向け密閉型有線モニターヘッドホン（100周年限定モデル）。モバイルデバイスでも高効率再生可能な48Ωインピーダンス。
+着脱式3ピンミニXLRケーブル（3m）を同梱し、リケーブルが可能。3.5mm-ステレオ標準ジャック変換アダプターも同梱。
+頭部にやさしくフィットするヘッドバンドと、快適なベロアのイヤーパッドを採用している。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#EarFun_Air_Pro_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#EarFun_Air_Pro_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>EarFun</brand>
+        <continuousPlaybackTime>9h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6500</price>
+        <weight>5.2g</weight>
+        <rdfs:comment>ハイレゾ相当の高音質コーデックaptX Adaptiveに対応した、ノイズキャンセリング機能搭載完全ワイヤレスイヤホン。専用アプリ「EarFun Audio」に対応。
+独自の「QuietSmart2.0」により外部のノイズを逆位相の波型で打ち消すアクティブノイズキャンセリング機能を搭載し、周囲の雑音をカットする。
+クアルコム社のチップ「QCC3071」を採用し、Bluetooth5.3をサポート。急速充電・ワイヤレス充電に対応し、充電ケース込みで最大45時間連続再生可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Elite_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Elite_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX7"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Jabra</brand>
+        <continuousPlaybackTime>8h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23000</price>
+        <weight>5.7g</weight>
+        <rdfs:comment>独自の楕円形イヤージェルを設計した完全ワイヤレスイヤホン。どんな耳の形状にも合わせてしっかりとフィットし、耳の中の圧力も解放する。
+「Dolby ヘッドトラッキング」を備えた空間サウンドを採用。充電ケース併用の場合、ANCオンで最長27時間バッテリーが持続（ANCオフで最長36時間）。
+「Jabra アドバンストアクティブノイズキャンセリング」が周囲の音に合わせて自動的に強度を調整。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HD_560S -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HD_560S">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>ゼンハイザー</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27000</price>
+        <weight>240g</weight>
+        <rdfs:comment>リニアなアコースティック特性と確かな低音域の存在感に加え、幅広い音域の再現を実現した有線ヘッドホン。
+新素材を採用した高性能38mmダイナミックドライバーを搭載。10kHz以上の高音も上質で伸びのある音の広がりを再現する。
+独自のテクノロジー「E.A.R.」で最適な角度にドライバーを配置。軽量ヘッドバンドとソフトで質の高いイヤーパッドで長時間装着していても快適。リニアなアコースティック特性と確かな低音域の存在感に加え、幅広い音域の再現を実現した有線ヘッドホン。
+新素材を採用した高性能38mmダイナミックドライバーを搭載。10kHz以上の高音も上質で伸びのある音の広がりを再現する。
+独自のテクノロジー「E.A.R.」で最適な角度にドライバーを配置。軽量ヘッドバンドとソフトで質の高いイヤーパッドで長時間装着していても快適。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HD_620S -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HD_620S">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>ゼンハイザー</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57000</price>
+        <weight>326g</weight>
+        <rdfs:comment>ゼンハイザーの「HD 600」シリーズおよび「HD 500」シリーズのDNAを融合したというモデル。同社では「密閉型でありながら、ナチュラルで広大なサウンドステージを実現する」と説明する。
+
+具体的には、アイルランドのファクトリーで製造する、リファレンスレベルの高品質な42mmトランスデューサーを搭載。「HD 660S2」と同様のラミネート加工を施した、Duo Fol テクノロジーの振動板も採用する。
+
+さらに、「HD 660S2」の技術を活用し、振動板に柔軟性をもたらすことで、「よりクリーンで豊かな低域を創出する」とのこと。ボイスコイルには、銅線コイルの半分の重量である超軽量のアルミコイルを使用し、「繊細な高域の描写力の基盤を築く」とうたう。
+
+このほか主な仕様は、インピーダンスが150Ω、周波数特性が6～30000Hz、感度が105dB（1kHz/1Vrms）。ケーブル長が180cm。重量は約326g（ケーブル除く）。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HD_660S2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HD_660S2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>ゼンハイザー</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75000</price>
+        <weight>260g</weight>
+        <rdfs:comment>ラミネート加工を行った「Duo-Folテクノロジー振動板」を採用し、豊かな低域を作り出すダイナミック・開放型有線ヘッドホン。
+特殊でパワフルなベントマグネットシステムと、精巧にデザインされたステンレススチールメッシュで、ひずみを抑え淀みのない音を創出する。
+パッドはソフトなパッドとベロアを組み合わせ適度な側圧で頭にフィット。人間工学デザインで不快さを排除した開放型設計は長時間でも心地よさを提供。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HUAWEI_FreeClip -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#HUAWEI_FreeClip">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型"/>
+        <brand>HUAWEI</brand>
+        <continuousPlaybackTime>8h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28000</price>
+        <weight>5.6g</weight>
+        <rdfs:comment>高性能なニッケルチタン形状記憶合金製の「C-bridge」を採用し、さまざまな耳の形状にフィットするオープン型完全ワイヤレスイヤホン。
+単体イヤホンの重さは約5.6g。1回のフル充電で最大8時間、充電ケース込みで最大36時間の音楽再生が可能。
+IP54の防じん防滴性能を搭載。独自の「マルチチャネルDNN通話ノイズリダクションアルゴリズム」により、混雑した屋外でもすぐれた通話性能を発揮する。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP0X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP0X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>保護されていない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP1X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP1X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>直径50mm以上の大きさの固形物が内部に入らない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP2X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP2X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>直径12.5mm以上の大きさの固形物が内部に入らない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP3X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP3X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>直径2.5mm以上の大きさの固形物が内部に入らない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP4X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP4X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>直径1.0mm以上の大きさの固形物が内部に入らない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>有害な影響が発生するほどの粉塵が内部に入らない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP6X -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP6X">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防塵"/>
+        <rdfs:comment>粉塵が内部に入らない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>保護されていない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>垂直に落ちてくる水滴による有害な影響がない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>垂直から15度の範囲で落ちてくる水滴による有害な影響がない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>垂直から60度の範囲で落ちてくる水滴による有害な影響がない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <rdfs:comment>あらゆる方向からの飛沫による有害な影響がない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>あらゆる方向からの噴流水による有害な影響がない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>あらゆる方向からの強い噴流水による有害な影響がない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>一時的に一定の水圧（水深）で水没しても内部に浸水しない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#防水"/>
+        <rdfs:comment>継続的に水没しても内部に浸水しない</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#JD1_FIO-IEM-JD1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#JD1_FIO-IEM-JD1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>FiiO</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3300</price>
+        <weight>14g</weight>
+        <rdfs:comment>豊かな低音を再現する10mm径液晶ポリマー（LCP）ダイナミックドライバーを搭載。
+ダイナミックドライバーをパワフルかつ繊細に駆動する「内外磁気回路設計」。
+鼓膜への圧力軽減と豊かな低音再生を両立する筐体構造。
+より高音質な音楽を楽しむための独立DSPオーディオチップ搭載（JD1 Type-C）。
+5種類のイコライジングの内蔵プリセットサウンド（JD1 Type-C）。
+上位機種のような高級感を演出するダイキャスト亜鉛合金フェースプレート。
+音波の振動を正確に鼓膜に伝えるアルミ合金製サウンドノズル。
+互換性を拡大する0.78mm 2ピンコネクター採用。
+片側わずか7g、快適な装着感。
+人間工学に基づいた筐体デザインで快適な装着感を実現。
+ハイレゾオーディオ認証取得。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>双方向コミュニケーションのためのコーデック。遅延が少ない。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3plus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3plus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>低遅延。接続が安定している。ハイレゾに対応している。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>96kHz/24ビットまでのハイレゾ相当に対応。主にAndroidスマホが準拠。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LIVE_BEAM_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LIVE_BEAM_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>JBL</brand>
+        <continuousPlaybackTime>12h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24000</price>
+        <weight>5g</weight>
+        <rdfs:comment>10mm径ダイナミックドライバーを装備。深く豊かな低音、バランスのよい中音域、洗練された精細な高音域を、あらゆる音量レベルで再現するようにチューニングされている。
+ ハイブリッド式ノイズキャンセリング機能に加えて、リアルタイムで周囲のノイズ成分を監視し、ノイズキャンセリングをかける周波数帯とその度合いを調整する「リアルタイム補正」機能も搭載。進化した計6つの高性能マイクによって、外から入ってくる耳内の騒音レベルを緻密に検出。13バンドのイコライザーを使用し、中音域と低音域のノイズの遮断性能を高めている。
+このほか、Bluetoothのバージョンは5.3、対応プロファイルはA2DP V1.4、AVRCP V1.6.2、HFP V1.8をサポートする。
+Bluetooth接続時の連続再生時間は、ANCオフ時が最大約48時間（イヤホン本体が約12時間、充電ケース使用時が約36時間）、ANCオン時が最大約40時間（イヤホン本体が約10時間、充電ケース使用時が約30時間）。
+LDAC接続時の連続再生時間は、ANCオフ時が最大約36時間（イヤホン本体が約9時間、充電ケース使用時が約27時間）、ANCオン時が最大約24時間（イヤホン本体が約6時間、充電ケース使用時が約18時間）。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Lightning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Lightning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#充電端子"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LinkBuds_S_WF-LS900N -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LinkBuds_S_WF-LS900N">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>9h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18000</price>
+        <weight>4.8g</weight>
+        <rdfs:comment>小型・軽量ながら高いノイズキャンセリング性能を備えた完全ワイヤレスイヤホン。耳から飛び出す量を抑え、重心が頭に近く、安定した装着性を実現。
+ノイズキャンセリングONの場合は本体で最長6時間、ケース充電込みで合計最長20時間バッテリーが持続する。
+5分充電で60分再生可能なクイック充電に対応。音声コンテンツを聴きながら周囲の音も聴ける「アンビエントサウンド（外音取り込み）モード」を搭載。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MDR-1AM2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MDR-1AM2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SONY</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29000</price>
+        <weight>187g</weight>
+        <rdfs:comment>広帯域再生を実現する40mmHDドライバーユニットの採用により、ハイレゾ音源もクリアに再生できるヘッドホン。
+ハウジングに制振性のある樹脂材料を用いることで不要な振動を抑え、クリアな音質を実現している。
+表面に合成皮革、内部に低反撥素材を採用したウレタンフォームにより、長時間のリスニングでも蒸れにくい。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MDR-MV1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MDR-MV1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SONY</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48000</price>
+        <weight>223g</weight>
+        <rdfs:comment>クリエイター向け背面開放型有線モニターヘッドホン。ヘッドホン内部の反射音を低減し、クリエイターが意図する正確な音場再現が可能。
+肌触りがよく、長時間使用に適したスエード調人工皮革をイヤーパッドに採用。使い勝手のよい着脱式プラグ付きケーブルと交換可能イヤーパッドを装備。
+ケーブルプラグは6.3ｍｍステレオ標準プラグ。付属のプラグアダプターを使用し、3.5ｍｍステレオミニジャックを備えたPCやスマホなどと接続できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_4_Wireless -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_4_Wireless">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>ゼンハイザー</brand>
+        <continuousPlaybackTime>60h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41000</price>
+        <weight>293g</weight>
+        <rdfs:comment>自動最適化するハイブリッド＆アダプティブノイズキャンセリングと自然な外音取り込み機能を搭載したワイヤレスヘッドホン。aptX Adaptiveに対応。
+最大60時間再生が可能なバッテリーを採用。ヘッドホンを外すと自動で停止、装着すると自動で再生を開始する「スマートポーズ機能」を搭載。
+オートオン/オフ機能により、ヘッドホンを持てば自動で電源オン、使わない状態で15分放置すれば自動で電源オフになる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_True_Wireless_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_True_Wireless_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Lossless"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>ゼンハイザー</brand>
+        <continuousPlaybackTime>7.5h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43000</price>
+        <weight>6.0g</weight>
+        <rdfs:comment>TrueResponseトラスデューサーシステム」を採用し、アーティストが意図する詳細や感情を余すことなく伝える完全ワイヤレスイヤホン。
+「アダプティブノイズキャンセリング」により、ノイズキャンセリングが周囲に合わせて自動で調整される。
+最長30時間の再生と高速Qiワイヤレス充電に対応。バッテリー保護モードを使うことで8分間の充電で1時間再生できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#OpenFit_Air_SKZ-EP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#OpenFit_Air_SKZ-EP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型"/>
+        <brand>Shokz</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16000</price>
+        <weight>8.7g</weight>
+        <rdfs:comment>Shokzのコンセプトにある“オープンイヤー”を継承した完全ワイヤレスイヤホンの最新モデル。
+耳にぴったりフィットするイヤーフックは、超軽量で、耳への負担も軽く、柔軟性のあるデザインになっている。安定性も高く長時間のリスニングにも快適。
+10分の急速充電で約2時間、充電ケースを使うことで、最大約28時間使用可能。IP54防水も備え、外出時も安心してお使いいただけます。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#OpenFit_SKZ-EP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#OpenFit_SKZ-EP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型"/>
+        <brand>Shokz</brand>
+        <continuousPlaybackTime>7h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22000</price>
+        <weight>8.3g</weight>
+        <rdfs:comment>耳の周りに装着し、耳を塞がず外の世界と関わりを保てるように設計されたオープンイヤー型完全ワイヤレスイヤホン。
+2層構造のリキッドシリコンを採用した「イヤークッションコア」は耳の形状にしなやかにフィットし、長時間の装着でも不快感を抱かせない。
+「ドルフィンアークイヤーフック」は0.7mmの超極細な形状記憶素材が内蔵されたデザイン。人間工学に基づいた設計で耳の形に自然にやさしくフィットする。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#PerL_Pro_AH-C15PL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#PerL_Pro_AH-C15PL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Lossless"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>DENON</brand>
+        <continuousPlaybackTime>8h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32000</price>
+        <weight>8.0g</weight>
+        <rdfs:comment>、医療技術を応用したパーソナライズ機能「Masimo AAT（Adaptive Acoustic Technology）」を搭載したのが特徴。聞こえ方を自動的に測定し、ユーザーに最適なリスニング・プロファイルを作成する。
+具体的には、「Masimo AAT」は、新生児の難聴検査に用いられる医療技術を応用した独自のテクノロジーになるとのこと。さまざまな周波数のテストトーンを再生した際に内耳から発生する微弱な音「OAE（Oto Acoustic Emission=耳音響放射）」を測定し、音に対するユーザーの反応性を評価。このOAEを解析して、ユーザーの耳が各周波数に対してどれだけ敏感かを調べた結果を元に、自己学習エンジンによって、ユーザーに最適化された専用のリスニングプロファイルが作成されるという。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Px7_S2e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Px7_S2e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_HD"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>Bowers&amp;Wilkins</brand>
+        <continuousPlaybackTime>30h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</price>
+        <weight>307g</weight>
+        <rdfs:comment>強化された24 bit DSPと、カスタム設計の40mmドライブ・ユニットを搭載したBluetoothワイヤレス・オーバーイヤー・ノイズキャンセリング・ヘッドホン。
+合計6基のマイクを用いて、すぐれたノイズキャンセリングと高品位な通話を実現。形状記憶フォームのイヤーパッドが耳をやさしく包み込む。
+バッテリー持続時間は30時間、15分の充電で7時間の再生が可能。USB-C-3.5mmステレオミニプラグケーブル、USB-C-USB-Cケーブルなどが付属。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_45_headphones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_45_headphones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>Bose</brand>
+        <continuousPlaybackTime>24h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</price>
+        <weight>240g</weight>
+        <rdfs:comment>ノイズキャンセリング機能を搭載したワイヤレスヘッドホン。「Awareモード」を備え、音楽を聞きながら周囲の音を同時に聞くことができる。
+「Triportテクノロジー」でイヤーカップサイズはそのままに深みのあるリッチなサウンドを実現。音量に合わせて最適化される「アクティブEQ」を採用。
+1回の充電で最大24時間の連続再生が可能。USB-Cケーブルを使い約2.5時間で充電完了し、15分のクイックチャージでも最大3時間音楽を楽しめる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Earbuds_II -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Earbuds_II">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#インナーイヤー型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Bose</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</price>
+        <weight>6.0g</weight>
+        <rdfs:comment>「CustomTuneテクノロジー」が耳に合わせてサウンドを自動で最適化する、完全ワイヤレスノイズキャンセリングイヤホン。
+付属の3サイズの柔らかいイヤーチップとスタビリティバンドが快適な装着感を実現。1回の充電で最大6時間の連続再生が可能。
+自分だけの静寂の世界に浸りたいときは「Quietモード」、周りに意識を向けたいときは「Awareモード」が便利。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Headphones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Headphones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>Bose</brand>
+        <continuousPlaybackTime>24h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32000</price>
+        <weight>240g</weight>
+        <rdfs:comment>ノイズキャンセリング機能を搭載した、Bluetooth対応ワイヤレスヘッドホン。インラインマイク付きオーディオケーブルの接続も可能。
+イヤーカップクッションがやさしく耳を包み込む。調節可能なイコライザーにより、低音の強調や高音の微調整、中音のバランスをとることができる。
+USB-Cの使用により、1回の充電で最大24時間の再生ができ、15分間の急速充電で最大2.5時間再生可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Ultra_Earbuds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Ultra_Earbuds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#インナーイヤー型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>Bose</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26000</price>
+        <weight>6.24g</weight>
+        <rdfs:comment>ノイズキャンセリング機能を搭載した完全ワイヤレスイヤホン。スタビリティバンドが耳にぴったりフィットすることで、快適な着け心地を実現。
+「CustomTuneテクノロジー」が耳に合わせてノイズキャンセレーションとサウンドパフォーマンスを自動調整。ソフトな傘型イヤーチップで外部ノイズを遮断。
+本体だけで最大6時間連続再生可能で、ケースでさらに3回充電でき合計で24時間使用可能。20分の急速充電で最大2時間使用できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Ultra_Headphones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Ultra_Headphones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>Bose</brand>
+        <continuousPlaybackTime>24h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43000</price>
+        <weight>250g</weight>
+        <rdfs:comment>ノイズキャンセリング機能を搭載したワイヤレスヘッドホン。「Boseイマーシブオーディオ」が、より臨場感のあるサウンドを実現。
+気分に合わせて選べる音楽モードを搭載。「CustomTuneテクノロジー」が耳に合わせてサウンドパフォーマンスを自動調整。
+最長24時間（「イマーシブオーディオ」を使用した場合は最長18時間）のバッテリー時間で、長時間のプレイリストでも最後まで再生できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>すべてのBluetooth対応機が準拠。遅延が大きい。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOLID_BASS_ATH-CKS30TW -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOLID_BASS_ATH-CKS30TW">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>オーディオテクニカ</brand>
+        <continuousPlaybackTime>7.5h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</price>
+        <weight>4.5g</weight>
+        <rdfs:comment>専用の「φ9mm SOLID BASS HD TWSドライバー」を搭載した完全ワイヤレスイヤホン。小型ボディによる安定した装着感で迫力あふれる重低音が楽しめる。
+プリセットイコライザーを採用し、シーンに合わせて専用アプリでイコライザーを設定しておけば、ワンタップで好みの音を呼び出せる。
+充電ケースも手のひらに収まる、薄型・軽量サイズ。最適な音質とフィット感が得られる4種類のイヤーピースが付属。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOUNDGEAR_SENSE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOUNDGEAR_SENSE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型"/>
+        <brand>JBL</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14000</price>
+        <weight>13.1g</weight>
+        <rdfs:comment>大口径16.2mmダイナミックドライバーと独自の「BASSエンハンスメント」を含むサウンドチューニングを採用した、オープンイヤー完全ワイヤレスイヤホン。
+イヤホン本体は4段階で角度調整可能。脱着式ネックバンドが付属し、イヤーフックの先端に装着することでネックバンドスタイルのイヤホンとしても使える。
+最大約24時間の連続再生（イヤホン本体約6時間＋充電ケース使用18時間）を実現。約15分で約4時間分チャージ可能な急速充電にも対応。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SRS-X1000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SRS-X1000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>STAX</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90000</price>
+        <rdfs:comment>静電型有線イヤースピーカー「SR-X1」と小型ドライバー・ユニット「SRM-270S」のセットモデル。
+「SRM-270S」はRCAピンジャックの高品位化、3mm厚フロントアルミパネル、サイズアップし放熱効果を高めたアルミ押し出しケースを採用。
+入出力にはパラレルアウト端子を搭載。設置の自由度が高く、デスクトップやベッドサイドで音楽に限らずパーソナルな映画鑑賞にも適している。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_AeroFit_Pro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_AeroFit_Pro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型"/>
+        <brand>ANKER</brand>
+        <continuousPlaybackTime>14h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18000</price>
+        <weight>12.2g</weight>
+        <rdfs:comment>耳を塞がないオープンイヤー / 深い重低音 / マルチポイント接続 / 通話時ノイズリダクション / 短時間充電 / Sounis-aリ対応 / イコライザー設定 / ヘッドトラッキング対応3Dオーディオ / IPX5防水規格 / 着脱式バンド</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Liberty_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Liberty_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <continuousPlaybackTime>9h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</price>
+        <weight>6.0g</weight>
+        <weight>ANKER</weight>
+        <rdfs:comment>独自ドライバー「A.C.A.A 3.0」を搭載した完全ワイヤレスイヤホン。2つのダイナミックドライバーにより、細かなサウンドもクリアに表現する。
+独自のアルゴリズムで音源を処理、ライブ会場や映画館にいるような音響体験を提供。ジャイロセンサーが頭の動きを検知し、音楽に囲まれた感覚を味わえる。
+独自の「ウルトラノイズキャンセリング 2.0」がノイズキャンセリングの強さを自動調節。イヤホン単体で最大9時間、充電ケース込みで最大28時間再生可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Liberty_4_NC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Liberty_4_NC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>ANKER</brand>
+        <continuousPlaybackTime>10h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</price>
+        <weight>5.2g</weight>
+        <rdfs:comment>高感度センサー・大口径ドライバー・遮音性を高めたチャンバーを搭載し、基礎性能が大幅にパワーアップした完全ワイヤレスノイズキャンセリングイヤホン。
+外部の環境やノイズを検知・除去するだけでなく耳の形を瞬時に計測し取りこぼしていたノイズまで除去する「ウルトラノイズキャンセリング 3.0」を採用。
+イヤホン単体で最大10時間、充電ケース込みで最大50時間の音楽再生が可能。高音質コーデックLDACに対応し、ハイレゾ音源再生が可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_P30i -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_P30i">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>ANKER</brand>
+        <continuousPlaybackTime>10h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000</price>
+        <weight>4.3g</weight>
+        <rdfs:comment>アクティブノイズキャンセリングを搭載し、イヤホンに搭載されたマイクが周囲の雑音を検知し低減。
+イヤホン本体が満充電の状態で最大10時間、充電ケースを合わせて使うと、最大45時間の音楽再生が可能。また10分間の充電で約2時間分の再生が可能な短時間充電にも対応。
+2台の端末に同時接続できるマルチポイント接続やイコライザー設定による音質調整が可能な高機能アプリへの対応に加え、スマホスタンド付き充電ケースを採用。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_P40i -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_P40i">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>ANKER</brand>
+        <continuousPlaybackTime>12h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</price>
+        <weight>5.0g</weight>
+        <rdfs:comment>独自技術「ウルトラノイズキャンセリング 2.0」により、周囲の騒音レベルに応じてノイズキャンセリングの強さを自動で調節する完全ワイヤレスイヤホン。
+イヤホン単体で最大12時間、充電ケース込みで最大60時間の音楽再生が可能。10分で約5時間分の短時間充電にも対応。
+ワイヤレス充電機能を搭載し、置くだけで簡単に充電できる。マルチポイント接続に対応し、2台の機器と接続が可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Space_Q30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Space_Q30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>ANKER</brand>
+        <continuousPlaybackTime>60h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9000</price>
+        <weight>260g</weight>
+        <rdfs:comment>ヘッドホンに搭載された2つのマイクが周囲の騒音を検知し、アクティブノイズキャンセリング(ANC)によって低周波ノイズを除去する。
+専用アプリでカスタマイズが可能で、周囲の環境に応じて3つのノイズキャンセリングモードから選択可能。交通機関モードは乗り物音を最小限に、屋外モードは車の音や風の音を、屋内モードは会話や足音を低減する。
+40mmのダイナミックドライバーが、ハイレゾ音源のクリアで繊細なサウンドを実現する。(※ハイレゾ対応はAUXケーブル接続時)
+電話がかかってきた時も内蔵マイクでハンズフリー通話が可能。通話応答もヘッドホンのボタン操作によって可能。(※Bluetooth接続時のみ)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Space_Q45 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Soundcore_Space_Q45">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>ANKER</brand>
+        <continuousPlaybackTime>65h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14000</price>
+        <weight>295g</weight>
+        <rdfs:comment>同社製ワイヤレスヘッドホン「Sounis-aife Q30」をアップデートしたモデル。ヘッドバンドがイヤーカップの耳に近い位置に付いており、頭部にピッタリとフィットして装着できる。
+また、低反発クッション素材をイヤーパッドに採用し、長時間装着しても疲れにくく、快適な着け心地を実現したという。
+バッテリー駆動時間は、通常再生時で最大65時間、ノイズキャンセリングモード時で最大50時間、LDAC使用時で最大45時間、LDAC使用＆ノイズキャンセリングモード時で最大37時間。
+このほか、「Sounis-aリ」を用意し、ノイズキャンセリングモードや外音取り込みモードの切り替えなどのカスタマイズが可能。接続端子はUSB Type-Cを採用する。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#TUNE_770NC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#TUNE_770NC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>JBL</brand>
+        <continuousPlaybackTime>70h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</price>
+        <weight>232g</weight>
+        <rdfs:comment>外音取り込み機能付きワイヤレスハイブリッドノイズキャンセリングヘッドホン。折り畳み可能な軽量設計で長時間の使用も快適。
+最大約70時間のバッテリーライフを備え、急いで充電する必要がある場合は5分でさらに3時間再生可能。
+マルチポイント機能により2台のBluetoothデバイスと同時接続が可能。「JBL Headphones」アプリで自分のテイストに合ったサウンドにカスタマイズできる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ40M2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ40M2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>パナソニック</brand>
+        <continuousPlaybackTime>5.5h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15000</price>
+        <weight>5.0g</weight>
+        <rdfs:comment>ノイズキャンセリング機能を搭載した完全ワイヤレスイヤホン。低域から高域までクリアなサウンドを実現。
+コンパクトで小さな耳にも快適に収まる。PC、スマホ、タブレットなど3台まで機器を素早く切り替えでき、会話や作業を遮らない。
+話し手の音声を区別して周囲のノイズを低減、装着したまま快適に通話できる。専用アプリで音質や操作方法を調整可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ60M2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ60M2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>パナソニック</brand>
+        <continuousPlaybackTime>7h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24000</price>
+        <weight>7g</weight>
+        <rdfs:comment>デジタルとアナログのデュアル制御でノイズを最適に処理する、ノイズキャンセリング機能搭載の完全ワイヤレスイヤホン。8mmドライバーを採用。
+「3台マルチポイント接続」に対応し、3台まで機器を素早く切り替えでき、会話や作業を遮らない。独自の通話音声処理技術で自分の声以外のノイズを低減。
+専用アプリで音質や操作方法を調整可能。イヤホン本体の再生時間は約7.0時間（ノイズキャンセリング ON、AAC）で、ワイヤレス充電（Qi）に対応。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ80 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ80">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>パナソニック</brand>
+        <continuousPlaybackTime>7h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33000</price>
+        <weight>7.0g</weight>
+        <rdfs:comment>デジタルとアナログのデュアル制御でノイズを最適に処理する、ノイズキャンセリング機能搭載の完全ワイヤレスイヤホン。10mmドライバーを採用。
+「3台マルチポイント接続」に対応し、3台まで機器を素早く切り替えでき、会話や作業を遮らない。独自の通話音声処理技術で自分の声以外のノイズを低減。
+専用アプリで音質や操作方法を調整可能。イヤホン本体の再生時間は約7.0時間（ノイズキャンセリング ON、AAC）で、ワイヤレス充電（Qi）に対応。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ULT_WEAR_WH-ULT900N -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ULT_WEAR_WH-ULT900N">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>50h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</price>
+        <weight>255g</weight>
+        <rdfs:comment>「ULTボタン」で重低音体感を実現したワイヤレスノイズキャンセリングステレオヘッドホン。統合プロセッサー「V1」を採用。
+専用設計40mmドライバーユニットが迫力のある低音域再生とクリアな中高域再生を実現。クリアなボーカルや高音までバランスよく楽しめる。
+ノイズキャンセリングON時で最長30時間、OFF時で最長50時間音楽再生可能。急速充電に加え、装着検出機能も搭載。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#充電端子"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Ultra_Open_Earbuds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Ultra_Open_Earbuds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型"/>
+        <brand>Bose</brand>
+        <continuousPlaybackTime>7.5h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33000</price>
+        <weight>6.5g</weight>
+        <rdfs:comment>耳にかけるデザインで耳を塞がず、周囲の音も聞くことができる完全ワイヤレスイヤホン。「ボーズイマーシブオーディオ」を搭載している。
+最長7.5時間再生（イマーシブオーディオがオンの場合は最長4.5時間）、最長48時間スタンバイ可能。付属の充電ケースを使うと、さらに19.5時間再生可能。
+シンプルなボタン操作でステレオモードやイマージョンモードに切り替えられる。防水規格IPX4に対応し、少々の雨や水しぶきに当たっても問題なく動作する。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Victor_HA-A30T2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Victor_HA-A30T2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>JVC</brand>
+        <continuousPlaybackTime>11h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9000</price>
+        <weight>4.5g</weight>
+        <rdfs:comment>2022年5月発売の完全ワイヤレスイヤホン「HA-A30T」の後継モデル。コンパクトなサイズ感、ノイズキャンリング機能、高音質・長時間再生などの基本仕様・性能を強化し、新たな機能も搭載したとのこと。
+具体的には、イヤホン本体と充電ケースのデザイン見直しを実施。イヤホン本体は片耳約4.5gの小型軽量ボディを採用し、充電ケースは「HA-A30T」と比較して15％軽量化を実現。また、最大27時間（ノイズキャンセリングオフ、充電ケース併用時）の長時間再生に対応。10分の充電で最大80分の再生が可能なクイック充電にも対応する。
+騒音下でもクリアなサウンドを実現するノイズキャンセリング機能は、「HA-A30T」から性能がさらに向上。加えて、ノイズキャンセリングの効果を高めるために、やわらかい素材のイヤーピースを採用している。さらに、風切り音を抑制するウインドカットモードを新たに追加した。
+音質面では、高磁力ネオジムマグネットを採用した高音質ドライバーユニットを搭載。低域から高域までバランスよく、クリアで迫力のあるサウンドを実現するという。曲や気分に合わせて変更できる3つのサウンドモード（FLAT/BASS/CLEAR）を搭載した。
+このほか主な仕様は、ドライバーユニットが口径6mm、バッテリー駆動時間が最大11時間（イヤホン単体）/最大27時間（充電ケース併用時）、充電時間が約2時間（イヤホン）/約2.5時間（充電ケース）。Bluetoothのバージョンは5.3、対応コーデックがSBC、AACをサポートする。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Victor_HA-FX550T -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Victor_HA-FX550T">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>JVC</brand>
+        <continuousPlaybackTime>6h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27000</price>
+        <weight>10.8g</weight>
+        <rdfs:comment>新開発のシルク（絹）を採用した大口径11mmの「シルクレイヤーカーボン振動板」を搭載した完全ワイヤレスイヤホン。同社は「滑らかでみずみずしく豊かに響く音を実現した」と紹介している。
+11mm径のドライバーを搭載しながら、イヤホン本体は片耳約5.4gの小型軽量設計を採用。イヤホンと充電ケースの合計重量は約34.4gで、「ビクタースタジオ」のエンジニアが音質を監修した完全ワイヤレスイヤホンにおいて最小・最軽量を実現した。
+ノイズキャンセリング性能は、従来モデル「HA-FW1000T」と比較して最大20％性能が向上。新たに風切り音を低減するウィンドカットモードを追加したことにより、同社ノイズキャンセリング搭載の完全ワイヤレスイヤホンにおいて最高クラスのノイズキャンセリング性能を実現した。
+ビクタースタジオのエンジニア5名がチューニングを行った、5つの「PROFESSIONALモード」を搭載。このほか、マルチポイント接続への対応やAIを使った通話用ノイズリダクション機能も搭載し、機能面も強化したとのこと。
+主な仕様は、充電時間が約2時間（イヤホン）/約2.5時間（充電ケース）。バッテリー駆動時間は、ノイズキャンセリングオフ時が最大6時間（イヤホン単体）/最大21時間（充電ケース併用時）、ノイズキャンセリングオン時が最大4時間（イヤホン単体）/最大14時間（充電ケース併用時）。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>12h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25000</price>
+        <weight>7.3g</weight>
+        <rdfs:comment>ノイズキャンセリング機能を搭載した完全ワイヤレスイヤホン。ノイズをより的確にとらえる「デュアルノイズセンサーテクノロジー」を搭載。
+従来機「WF-1000XM3」と比較し、高音域から低音域までどの帯域においても騒音に対してのノイズキャンセリング性能が向上している。
+音楽を聴きながら周囲の音も聴ける「アンビエントサウンド（外音取り込み）モード」を搭載。LDACコーデックに対応。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>12h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28000</price>
+        <weight>5.9g</weight>
+        <rdfs:comment>統合プロセッサーV2とノイズキャンセリングプロセッサーQN2eによりハイレベルなノイズキャンセリング処理、音質信号処理が可能な完全ワイヤレスイヤホン。
+「マルチノイズセンサーテクノロジー」によりデュアルフィードバックマイクとフィードフォワードマイク、片耳3つずつノイズキャンセリングマイクを搭載。
+独自の8.4ｍｍドライバーユニット「ダイナミックドライバーX」を採用し、再現性の高い高音質を実現。本体の体積を従来機種より約25%小型化。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-C500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-C500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>10h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000</price>
+        <weight>5.4g</weight>
+        <rdfs:comment>本体5.4g、ケース35gの軽量小型な完全ワイヤレスイヤホン。小型ながら高いバッテリー性能とコンパクト設計により20時間再生が可能。
+高音域から低音域までバランスが良好で、ボーカルが自然で明瞭。DSEEで圧縮された音源をCD音質相当まで補完し、自分好みの音質に調整もできる。
+防滴性能IPX4により、雨や汗を気にせずに音楽を楽しめる。左右同時伝送方式を採用し、途切れにくい接続と低遅延を実現。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-C700N -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-C700N">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</price>
+        <weight>4.6g</weight>
+        <rdfs:comment>高性能ノイズキャンセリング機能を搭載した完全ワイヤレスイヤホン。電車やバスなどの騒音環境下、人の声が多い環境でも音楽に没入できる。
+独自開発技術「DSEE」により、圧縮された音源で失われがちな高音域をCD音質相当までイヤホン内で補完。IPX4の防滴性能を備えている。
+ノイズキャンセリングON時は本体最長7.5時間、ケース充電込みで合計最長15時間使用可能。10分の充電で60分再生可能なクイック充電にも対応。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-1000XM4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-1000XM4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>38h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33000</price>
+        <weight>254g</weight>
+        <rdfs:comment>独自の「高音質ノイズキャンセリングプロセッサーQN1」の性能をさらに引き出し、ノイズキャンセリング性能が向上したワイヤレスヘッドホン。
+AI技術を組み込んだ「DSEE Extreme」により、CD、MP3、ストリーミングなどのさまざまな圧縮音源をハイレゾ級の高音質で楽しめる。
+40kHzまでの高域再生が可能な専用設計の40mmHDドライバーユニットを搭載。付属のケーブルを接続すればハイレゾ音源をそのままに再生可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-1000XM5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-1000XM5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LDAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SONY</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40000</price>
+        <weight>250g</weight>
+        <rdfs:comment>高いノイズキャンセリング機能を搭載したワイヤレスステレオヘッドホン。装着状態や環境に合わせて最適化する「オートNCオプティマイザー」機能を備える。
+専用設計の30mmドライバーユニットを搭載し、低音域から高音域までの再現性を高め、より自然で伸びのある音質を実現。
+ノイズキャンセリングON時は最長30時間、ノイズキャンセリングOFF時は最長40時間の音楽再生が可能。3分の充電で3時間再生が可能なUSB PD充電に対応</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-CH520 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-CH520">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>50h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5800</price>
+        <weight>147g</weight>
+        <rdfs:comment>圧縮音源の高音域をクリアに再現する「DSEE」搭載のワイヤレスヘッドホン。専用アプリ「Headphones Connect」に対応し、音質をカスタマイズできる。
+最長50時間の音楽再生が可能。さらに3分の充電で約1.5時間（10分の充電で約5.5時間）再生が可能なクイック充電に対応。
+シワの少ないなめらかな低反撥ウレタンフォームのイヤーパッドで、やわらかく耳当たりがよい。スマートフォンやiPhone、PCでのハンズフリー通話が可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-CH720N -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WH-CH720N">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>50h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16000</price>
+        <weight>192g</weight>
+        <rdfs:comment>さまざまなコンテンツに没入できるノイズキャンセリング機能を搭載したワイヤレスステレオヘッドホン。統合プロセッサー「V1」を搭載し、高音質を実現。
+専用アプリ「Headphones Connect」から自分好みにカスタマイズが可能。圧縮音源の高音域をクリアに再現する「DSEE」を搭載。
+質量約192gの軽量設計。高精度「ボイスピックアップテクノロジー」で声をクリアに届ける。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WI-C100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WI-C100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ネックバンド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>SONY</brand>
+        <continuousPlaybackTime>25h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000</price>
+        <weight>20g</weight>
+        <rdfs:comment>最大25時間再生可能なロングバッテリーを備えたネックバンドタイプのワイヤレスイヤホン。突然の雨や汗に強いIPX4相当の防滴仕様。
+圧縮音源の高音域をクリアに再現する「DSEE」を搭載し、自然で広がりのある音で再生（「Sony Headphones Connect」アプリから機能を有効にする）。
+約20gの軽量ボディと首周りのバランスがいい形状で安定装着が可能。首元のボタンでiPhone/スマートフォンなどのプレーヤーを簡単に操作できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>主にAndroidスマホが準拠 。SBC、AACよりも高音質で遅延も少ない。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>96kHz/24ビットまでのハイレゾ相当に対応。高音質で遅延も少ない。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_HD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_HD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>48kHz/24ビットまでのハイレゾ相当に対応。遅延がやや大きい。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Lossless -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Lossless">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>aptXの最新技術で、オーディオをロスレス（非圧縮）で転送することが可能。これにより、CDと同等のデータがBluetoothで転送可能になっている。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Low_Latency -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Low_Latency">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#コーデック"/>
+        <rdfs:comment>遅延がきわめて少ない。ゲームプレイや動画視聴に最適。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#nwm_ONE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#nwm_ONE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LC3"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>NTTソノリティ</brand>
+        <continuousPlaybackTime>20h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35000</price>
+        <weight>185g</weight>
+        <rdfs:comment>オープンイヤーならではの広がりのある空間表現と、軽い装着感を実現したオーバーヘッドタイプの耳スピーカー。ユーザーの音と周囲の音を融合させるデュアル・ループデザインを採用しており、周囲への音漏れを気にせず音楽を楽しみながら、家族や仲間の声も聞き漏らさないという。
+
+また、耳をふさがずに耳元に音を閉じ込めるNTT独自の「PSZ（パーソナライズドサウンドゾーン）」技術を採用し、オープンイヤーながらも音漏れが気にならないという。周囲の音をカットしてユーザーの声だけ届けるNTTの特許技術「Magic Focus Voice」により、通話やオンライン会議での相手側の音のストレスを軽減する。
+
+音質面では、12mm径のツイータードライバーと、低歪で低域を再生する35mm径のウーハードライバーを新開発。それぞれのドライバーは別々のアンプで駆動し、DSP処理によって大音量でも歪みなく音声を再生できる。
+
+さらに、オープンイヤーで耳が蒸れにくく、約185gの軽量ボディで頭や首への負担を軽減。機能面では、360 Reality Audio、次世代Bluetooth規格LE Audio/Auracastに対応する。
+
+Bluetoothのバージョンは5.3で、対応プロファイルがA2DP、HFP、AVRCP、TMAP、PBP、対応コーデックがSBC、AAC、LC3、CVSD、mSBC。8台まで端末を登録可能なマルチペアリングや、最大2台の端末を同時接続可能なマルチポイントに対応する。
+
+このほか、バッテリー駆動時間は最大20時間（音楽再生時）。付属のUSB Type-CケーブルによるUSBオーディオ接続も可能だ。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#インナーイヤー型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#インナーイヤー型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+        <rdfs:comment>耳の穴に軽く押し込むタイプ。付属ヘッドホンはほとんどこのタイプ。オープンエアー型が多く、音漏れしやすい。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+        <rdfs:comment>ヘッドバンドを頭に載せ耳をはさみこむタイプ。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+        <rdfs:comment>耳栓のように、イヤホンを耳の穴の中に押し込むタイプ。密閉感が高く、外部の音が聞こえにくい。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ネックバンド型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ネックバンド型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+        <rdfs:comment>ハンドを首の後ろからまわしこんで、耳をはさみこむタイプ。オーバーヘッド型より小型のものが多い。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#性能"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ペアリング"/>
+        <rdfs:comment>1つの子機に複数の親機をペアリング（登録）できる機能</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ペアリング"/>
+        <rdfs:comment>2台の親機を同時に接続できる機能</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#接続方式"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス充電">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#充電端子"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#接続方式"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#楽園-PARA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#楽園-PARA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>水月雨</brand>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54000</price>
+        <weight>600g</weight>
+        <rdfs:comment>100mm大型振動版、シリーズ独自の「FDT フルドライブ技術」を搭載した有線ヘッドホン。
+特別なサイズの「N52 ネオジムマグネット」を36個使用し、振動板の振動面全体を覆う平面磁界が形成されている。
+傾斜角のあるユニバーサル・デュアル 3.5mm リケーブル設計を採用し、さまざまなシーンのニーズに合わせてケーブルを自由に交換できる。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#装着タイプ"/>
+        <rdfs:comment>耳にひっかけるタイプ。耳に密着しないため耳への負担は少なめだが、隙間ができやすく音漏れしやすい。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#B&amp;W_Px8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#B&amp;W_Px8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ヘッドホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_Adaptive"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#aptX_HD"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#オーバーヘッド型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#有線"/>
+        <brand>Bowers&amp;Wilkins</brand>
+        <continuousPlaybackTime>30h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95000</price>
+        <rdfs:comment>カーボンコーン・ドライブユニットを搭載したオーバーイヤーノイズキャンセリングワイヤレスヘッドホン。ひずみを低減し、透明感を向上させている。
+aptX AdaptiveワイヤレステクノロジーとパワフルなDSPにより、ハイレゾ対応ストリーミングサービスから24bitの高解像度なサウンドを再生できる。
+6つのマイクが連携して、ノイズキャンセリングとクリアな音声通話の両方にすぐれたパフォーマンスをもたらす。一度の充電で30時間の再生が可能。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Beats_Studio_Buds_+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Beats_Studio_Buds_+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX4"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>ビーツ・エレクトロニクス</brand>
+        <continuousPlaybackTime>9h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19000</price>
+        <weight>5.0g</weight>
+        <rdfs:comment>アクティブノイズキャンセリングと外部音取り込みモードを備えた完全ワイヤレスイヤホン。大きさが3倍になったマイクで鮮明かつクリアな通話ができる。
+独自の二層構造のトランスデューサーを搭載し、よりクリアな低音とひずみの少ないサウンドを実現。充電ケースを使用して最大36時間の再生が可能。
+再設計した3つのベントが緻密なサウンドを再現するとともに装着時の圧力を低減。4種類のサイズから選べるイヤーチップが付属。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOLID_BASS_ATH-CKS30TW+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOLID_BASS_ATH-CKS30TW+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#イヤホン"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AAC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IP5X"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#IPX5"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SBC"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#USB_Type-C"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ノイズキャンセリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マイク"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチペアリング"/>
+        <has-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#マルチポイント"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型"/>
+        <is-a rdf:resource="http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#ワイヤレス"/>
+        <brand>オーディオテクニカ</brand>
+        <continuousPlaybackTime>7.5h</continuousPlaybackTime>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</price>
+        <weight>4.5g</weight>
+        <rdfs:comment>「高解像度な重低音とノイズキャンセリング機能を掛け合わせた」とうたう完全ワイヤレスイヤホン。独自設計の9mm径ドライバーと、空気の流れをコントロールする音響スペースとダクトを配置。また、フィードフォワード式のアクティブノイズキャンセリング機能を搭載した。
+イヤホン本体には、IP55相当の防水・防塵性能を装備。イヤホン部分が汚れたら水洗いでき、急な雨で濡れてしまったり、スポーツなどで汗をかいたりしても安心して使用できるという。さらに、イヤホン紛失を防止する「置き忘れアラート」も搭載した。
+このほか、外の音を取り込みながらBGM感覚で音楽が聴けるヒアスル―機能や、イヤホンを着けたまま会話やアナウンスが聴けるトークスルー機能、同社のマイクロホンで収録した自然のサウンドなどが聴けるサウンドスケープ機能なども搭載した。
+主な仕様は、充電時間が約2.5時間（イヤホン）/約3時間（充電ケース）。連続音楽再生時間は、ノイズキャンセリングオン時が最大約6.5時間（イヤホン単体）/最大約17.5時間（充電ケース併用時）、ノイズキャンセリングオフ時が最大約7.5時間（イヤホン単体）/最大約20時間（充電ケース併用時）。</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
