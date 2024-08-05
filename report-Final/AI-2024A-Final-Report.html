@@ -1,0 +1,594 @@
+<!DOCTYPE html><html><head>
+      <title>AI-2024A-Final-Report</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/yamaguchi/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="ai実習2024-最終課題レポート">AI実習2024　最終課題レポート </h1>
+<h2 id="各回のグループ討議の要約と個人ワーク">各回のグループ討議の要約と個人ワーク </h2>
+<h2 id="第13回-第15回">[第13回～第15回] </h2>
+<h2 id="最終課題">最終課題 </h2>
+<ul>
+<li>
+<p><strong>課題期間</strong>：   2024/7/18(木)</p>
+</li>
+<li>
+<p><strong>課題提出期限</strong>：　2024/8/7(水) 18:00</p>
+</li>
+<li>
+<p>ファイル名は、<a href="http://AI-2024A-Final-Report.md">AI-2024A-Final-Report.md</a>　（すべて半角英数記号）とすること</p>
+</li>
+<li>
+<p>稀に、ファイル名にマルチバイト日本語を入れてGithubにFile Uploadが失敗するケースがあるため</p>
+</li>
+</ul>
+<hr>
+<p></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">クラス</th>
+<th style="text-align:center">学籍番号</th>
+<th style="text-align:center">氏    名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">20122072</td>
+<td style="text-align:center">山口翔太</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="レポートの作成手順-マークダウン記法">レポートの作成手順 (マークダウン記法) </h2>
+<ul>
+<li>マークダウン記法<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>でレポートを作成する</li>
+<li>テキストエディタ＋機能拡張をインストール：</li>
+<li>VSCode  <a href="https://code.visualstudio.com/download#">https://code.visualstudio.com/download#</a></li>
+<li>機能拡張(Markdown PDF, Markdown Preview Enhanced ) セットアップ</li>
+<li>ファイル名は、<code>AI実習2024A課題レポート(学籍番号)(学生氏名).md </code></li>
+<li>作成したらPDFファイル、HTMLファイルを変換生成する</li>
+</ul>
+<h4 id="マークダウン記法についてわかりやすい説明-web情報">マークダウン記法についてわかりやすい説明、Web情報 </h4>
+<p><a href="https://www.bing.com/videos/riverview/relatedvideo?q=%e3%83%9e%e3%83%bc%e3%82%af%e3%83%80%e3%82%a6%e3%83%b3%e8%a8%98%e6%b3%95&amp;mid=4EE93F5EF42F9CAD0CCC4EE93F5EF42F9CAD0CCC&amp;FORM=VIRE">マークダウン記法とは？</a><br>
+<a href="https://qiita.com/miriwo/items/28d80f46c857de49f34b">Markdown記法～基礎編～</a><br>
+<a href="https://qiita.com/miriwo/items/28d80f46c857de49f34b">マークダウン記法一覧</a><br>
+<a href="https://backlog.com/ja/blog/how-to-write-markdown/">マークダウンの書き方</a></p>
+<h3 id="外部ツール画面の図式引用">外部ツール画面の図式引用 </h3>
+<ul>
+<li>本様式をひな型とする</li>
+<li>様式中に、マークダウンのコメントとして<br>
+　　<code>&lt;!-- 要 記述　回答 --&gt;</code> と記されている箇所は忘れずに適切な記述を加筆する</li>
+<li>図やスクリーンショットを引用する場合、フォルダにまとめておく</li>
+<li>1つのレポートにつき、1つのフォルダを用意する</li>
+<li>そのフォルダに、md, pdf,html,および, 引用で使用したjpg,png等ファイルをまとめて配置する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><msup><mi>R</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">MR^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span>で作成したRDFは、スクリーンショット画像として本文に取り込む</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>r</mi><mi>o</mi><mi>t</mi><mi>e</mi><mi>g</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">Protege</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">ro</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord mathnormal">e</span></span></span></span>で作成したオントロジは、<code>OWL/XML Syntax</code> 形式で、<code>file名.owl</code>　として保存する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>r</mi><mi>o</mi><mi>t</mi><mi>e</mi><mi>g</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">Protege</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">ro</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord mathnormal">e</span></span></span></span>で作成したLODは、<code>RDF/XML Syntax</code> 形式で、<code>file名.owl</code>　と保存する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>p</mi><mi>a</mi><mi>r</mi><mi>q</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">Sparql</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Sp</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.01968em;">ql</span></span></span></span>のソースコードは、マークダウン形式に、引用によって記述する</li>
+</ul>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>  　Sparqlのクエリコードを　```sql  と ```　で囲み、クエリの実行結果も　``` ``` で囲む
+</code></pre><h3 id="レポート提出方法-githubのプライベートリポジトリにアップロード">レポート提出方法 Githubのプライベートリポジトリにアップロード </h3>
+<ul>
+<li>
+<p>2学年4学期の<strong>API実習と同じ方法</strong></p>
+</li>
+<li>
+<p>Githubのアカウントを作成し、<strong>Practice-AI-2024</strong> という名称でプライベートリポジトリを作成</p>
+</li>
+<li>
+<p>そのプライベートリポジトリに、指導員のGithubアカウント= <strong>keythrive</strong>を招待する</p>
+</li>
+<li>
+<p>Githubのプライベートリポジトリに次の名前で、6つフォルダを用意する：</p>
+<ul>
+<li><strong>report1-3</strong></li>
+<li><strong>report4-6</strong></li>
+<li><strong>report7-9</strong></li>
+<li><strong>report10-12</strong></li>
+<li><strong>report13-15</strong>は、<strong>report-Final</strong>　に混ぜてよい</li>
+</ul>
+</li>
+<li></li>
+<li>
+<p>Githubのアカウント名、プライベートリポジトリ作成、6つのフォルダをつくったか？招待を完了したか？について、FORMSアンケートするので必ず回答すること。</p>
+</li>
+<li>
+<p>FORMSアンケートはこちら：</p>
+<ul>
+<li><a href="https://forms.office.com/r/6iMLLYjw1t">https://forms.office.com/r/6iMLLYjw1t</a></li>
+</ul>
+</li>
+<li>
+<p>FORMSアンケートに未回答の場合、レポートを取得する方法が確立しないので、必ず回答のうえレポート提出可能な状態にすること</p>
+</li>
+<li>
+<p>それぞれの提出期限までに、必要なファイル一式を当該フォルダにアップロードしておく</p>
+</li>
+<li>
+<p>〆切時刻を過ぎた時点で自動的に, 全員のGithubプライベートリポジトリから、<code>git clone</code>などでファイルを一括ダウンロードする</p>
+</li>
+<li>
+<p>提出が遅れるとダウンロードできず、未提出と判断される</p>
+</li>
+<li>
+<p>真に止むを得ない事由で、提出期限が遅れる場合、事前にメールにて連絡・相談すること:</p>
+</li>
+<li>
+<p>mailto:  <strong><a href="mailto:horikawa.keitaro@kaishi-pu.ac.jp">horikawa.keitaro@kaishi-pu.ac.jp</a></strong></p>
+</li>
+<li>
+<p>事前連絡なしに、期限を過ぎた場合、その課題レポートは未提出として採点しない</p>
+</li>
+<li>
+<p>Githubのアカウント登録、プライベートリポジトリ、ファイルアップロードが不明な場合は、必ず事前に確認・相談するか、すでに出来ている友達から教えてもらうこと</p>
+</li>
+</ul>
+<hr>
+<h2 id="課題レポートのまとめ方">課題レポートのまとめ方 </h2>
+<ul>
+<li>直近のグループ実習3回分をまとめて1つのレポートを作成する</li>
+<li>毎回休まずに出席して、グループ討論に積極的に参画する</li>
+<li>グループを代表して発表し、質疑応答、議論、メモを確実にとる作業が大切</li>
+<li>自グループと他グループの発表をしっかり聴いて、議論模様を簡潔にまとめて報告する</li>
+<li>それぞれの回の全てのグループ発表、および、</li>
+<li>学生と教員からの質疑コメントを要約する</li>
+<li>ここまではグループメンバ間の協力作業で、差異化要素はほとんどないことが予想される</li>
+<li>自作の成果（RDF,オントロジ等）には極力 "FOAF,SKOS,DC"など共通語彙を適用する</li>
+<li><strong>個人の努力を差異化要素</strong>として、さらに踏み込んだ検討・実習の成果を3回分の<strong>個人演習</strong>について報告してよい</li>
+<li>3回で取り組んだ内容、理解を深めたことを独自レポートとして加筆可能</li>
+<li>例えば、<strong>作成したRDF,オントロジ,使用したLOD, 作成したSparqlクエリ,その他のAI手法やプログラムとの連携技、それらの分析・考察・所感</strong>　など</li>
+</ul>
+<h3 id="本実習課題レポートに取り組む意義">本実習・課題レポートに取り組む意義 </h3>
+<ul>
+<li>半年後、本実習を「適当にやり過ごした学生群」と、「真剣に打ち込んで突き詰めた学生群」に明確に分かれることが予想される</li>
+<li>前者と後者とで、成長の差は著しく広がり、臨地実務実習IIの実習成果および企業担当者から評価が如実に変わる</li>
+<li>1年後の今頃、就職活動の内々定数（場合によっては、転職ファストパスの数）が大きく変わることが見込まれる</li>
+</ul>
+<hr>
+<h2 id="最終課題-1">最終課題 </h2>
+<ul>
+<li>
+<p>第14回ー第15回「情報家電」オントロジを参考に、最終自作オントロジの作成と活用評価を報告する</p>
+</li>
+<li>
+<p>必要な要件は下記のとおり：</p>
+</li>
+<li>
+<p>(1) 設計者（貴方）の立場：　新製品や新商品を購入検討中の顧客に対し、適切なアドバイスを提供するコンシェルジェ</p>
+</li>
+<li>
+<p>(2) 作成評価するオントロジとそのアプリの要件：　顧客からのどのような問合せ（クエリ）が考えられるか？　ユースケースを具体的に描いて、それに適切に答えられるための必要な知識・概念・語彙をオントロジとして設計する</p>
+</li>
+<li>
+<p>例えば、白物家電（冷蔵庫、エアコン、洗濯機、掃除機、液晶TV）、スマートフォン、PC、タブレット、電気自動車、の買い替えを想定して、さまざまなニーズに応えるための知識を設計する</p>
+</li>
+<li>
+<p>多数の製品・商品群がある中、数多の選択肢から、顧客が十分に満足する製品をどういう条件で絞り込むか？</p>
+</li>
+<li>
+<p>(3) 購入要件を満たす製品の絞り込みを可能とする　<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>p</mi><mi>a</mi><mi>r</mi><mi>q</mi><mi>l</mi><mtext>クエリ</mtext></mrow><annotation encoding="application/x-tex">Sparqlクエリ</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Sp</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.01968em;">ql</span><span class="mord cjk_fallback">クエリ</span></span></span></span>の仕様設計</p>
+</li>
+<li>
+<p>クエリに整合した、概念・用語・語彙と、その関係整理を製品・製品バリエーション・要求仕様として表現する</p>
+</li>
+<li>
+<p>(4) 実際の具体的製品名(LOD)、代表的な属性・共通語彙を使ってオントロジに反映する</p>
+</li>
+<li>
+<p>(5) 実際にProtegeを用いたオントロジの作成、Sparqlの動作を確認</p>
+</li>
+<li>
+<p>(6) オントロジの評価：　購入要件に複数のバリエーションを用意して、複数パターンのクエリと結果の実例を示すこと。そのうえで、製品購入へのアドバイスの網羅性・精度・頻度を評価考察する</p>
+</li>
+<li>
+<p>オントロジを用いた推論は、クラスの同一性、排他性などによるクラス体系整理のレベルであるが、利用価値の高い<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>p</mi><mi>a</mi><mi>r</mi><mi>q</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">Sparql</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Sp</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.01968em;">ql</span></span></span></span>や<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>r</mi><mi>o</mi><mi>l</mi><mi>o</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">Prolog</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">ro</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span>による述語論理の検討・提案ができれば加点要素とする</p>
+</li>
+<li>
+<p>また、個人作業の高度化の一環で、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>p</mi><mi>a</mi><mi>r</mi><mi>q</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">Sparql</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Sp</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.01968em;">ql</span></span></span></span>や<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>r</mi><mi>o</mi><mi>l</mi><mi>o</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">Prolog</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">ro</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span>の論理演算をDSLとして、他の言語から呼び出す形態で活用してもよい</p>
+</li>
+<li>
+<p>更なる加点要素：Virtuosoを用いたRDFストア化および、Sparqlエンドポイントのローカル動作確認</p>
+</li>
+</ul>
+<hr>
+<h2 id="最終課題の記載事項">最終課題の記載事項 </h2>
+<h3 id="作成したオントロジ名対象とした新製品新商品名">作成したオントロジ名：対象とした新製品・新商品名 </h3>
+<h3 id="想定した顧客からの具体的質問-ユースケース事例">想定した顧客からの具体的質問、ユースケース事例 </h3>
+<h3 id="protegeを用いたオントロジの図式">Protegeを用いたオントロジの図式 </h3>
+<ul>
+<li><strong>protégé</strong>にて作成された、オントロジファイル (.owl) 形式の成果物</li>
+<li>画面スナップショット (.jpg, .png)</li>
+</ul>
+<h3 id="sparqlの実施例とその結果">Sparqlの実施例とその結果 </h3>
+<p>実施1<br>
+ワイヤレスイヤホンで、ノイズキャンセリング・マルチポイント・マルチペアリングという機能を持っているものを検索するクエリ。</p>
+<pre data-role="codeBlock" data-info="sql" class="language-sql sql"><code>PREFIX rdf: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span>
+PREFIX owl: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2002/07/owl#&gt;</span>
+PREFIX rdfs: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2000/01/rdf-schema#&gt;</span>
+PREFIX xsd: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2001/XMLSchema#&gt;</span>
+PREFIX ns: <span class="token operator">&lt;</span>http:<span class="token comment">//www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#&gt;</span>
+<span class="token keyword keyword-SELECT">SELECT</span> ?イヤホン ?価格
+<span class="token keyword keyword-WHERE">WHERE</span> {
+  ?イヤホン a ns:イヤホン <span class="token punctuation">;</span>
+            ns:price ?価格 <span class="token punctuation">;</span>
+            ns:<span class="token operator">is</span><span class="token operator">-</span>a ns:ワイヤレス <span class="token punctuation">;</span>
+            ns:has<span class="token operator">-</span>a ns:ノイズキャンセリング <span class="token punctuation">;</span>
+            ns:has<span class="token operator">-</span>a ns:マルチポイント <span class="token punctuation">;</span>
+            ns:has<span class="token operator">-</span>a ns:マルチペアリング <span class="token punctuation">;</span>
+}
+</code></pre><p>結果1</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Elite_10	"23000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Victor_HA-FX550T	"27000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ80	"33000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM5	"28000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Victor_HA-A30T2	"9000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_True_Wireless_4	"43000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AVIOT_TE-W1-PNK	"17000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LinkBuds_S_WF-LS900N	"18000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-C700N	"12000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM4	"25000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#PerL_Pro_AH-C15PL	"32000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ40M2	"15000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#SOLID_BASS_ATH-CKS30TW+	"12000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Technics_EAH-AZ60M2	"24000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;
+</code></pre><p>実施2<br>
+ヘッドホンに対して、価格が60000以下で、接続方式が有線とワイヤレスのどちらでもできるという条件をFILTERでかけ、aptX_Adaptiveというコーデックに対応しているヘッドホンを調べ、ヘッドホンと価格を表示させるクエリを作成した。</p>
+<pre data-role="codeBlock" data-info="sql" class="language-sql sql"><code>PREFIX rdf: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span>
+PREFIX owl: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2002/07/owl#&gt;</span>
+PREFIX rdfs: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2000/01/rdf-schema#&gt;</span>
+PREFIX xsd: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2001/XMLSchema#&gt;</span>
+PREFIX ns: <span class="token operator">&lt;</span>http:<span class="token comment">//www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#&gt;</span>
+<span class="token keyword keyword-SELECT">SELECT</span> <span class="token keyword keyword-DISTINCT">DISTINCT</span> ?ヘッドホン ?価格
+<span class="token keyword keyword-WHERE">WHERE</span> {
+  ?ヘッドホン a ns:ヘッドホン <span class="token punctuation">;</span>
+              ns:price ?価格 <span class="token punctuation">;</span>
+              ns:has<span class="token operator">-</span>a ns:aptX_Adaptive <span class="token punctuation">;</span>
+             ns:<span class="token operator">is</span><span class="token operator">-</span>a ?接続方式 <span class="token punctuation">.</span>
+  ?接続方式 a ns:接続方式 <span class="token punctuation">.</span>
+  FILTER<span class="token punctuation">(</span>?接続方式 <span class="token operator">=</span> ns:有線 <span class="token operator">||</span> ?接続方式 <span class="token operator">=</span> ns:ワイヤレス<span class="token punctuation">)</span>
+  FILTER<span class="token punctuation">(</span>?価格 <span class="token operator">&lt;=</span><span class="token number">60000</span><span class="token punctuation">)</span>
+}
+</code></pre><p>結果2</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#AONIC_50_GEN_2_SBH50G2-BK-J	"45000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_4_Wireless	"41000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Px7_S2e	"50000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;
+</code></pre><p>実施例3<br>
+UNION句を使用して、検索条件の和集合を表示させた。BIND句を使用して、UNION句を使用して検索したの区別がつくようにしている。</p>
+<pre data-role="codeBlock" data-info="sql" class="language-sql sql"><code>PREFIX rdf: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span>
+PREFIX owl: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2002/07/owl#&gt;</span>
+PREFIX rdfs: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2000/01/rdf-schema#&gt;</span>
+PREFIX xsd: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/2001/XMLSchema#&gt;</span>
+PREFIX ns: <span class="token operator">&lt;</span>http:<span class="token comment">//www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#&gt;</span>
+<span class="token keyword keyword-SELECT">SELECT</span> <span class="token keyword keyword-DISTINCT">DISTINCT</span> ?イヤホン ?価格 ?連続再生時間 ?機能 ?装着タイプ
+<span class="token keyword keyword-WHERE">WHERE</span> {
+  {
+    ?イヤホン a ns:イヤホン <span class="token punctuation">;</span>
+              ns:price ?価格 <span class="token punctuation">;</span>
+              ns:continuousPlaybackTime ?連続再生時間 <span class="token punctuation">;</span>
+              ns:has<span class="token operator">-</span>a ns:aptX_Adaptive <span class="token punctuation">;</span>
+              ns:<span class="token operator">is</span><span class="token operator">-</span>a ?装着タイプ <span class="token punctuation">.</span>
+    ?装着タイプ a ns:装着タイプ <span class="token punctuation">.</span>
+    BIND<span class="token punctuation">(</span><span class="token string">"aptX_Adaptive"</span> <span class="token keyword keyword-AS">AS</span> ?機能<span class="token punctuation">)</span>
+  }
+  <span class="token keyword keyword-UNION">UNION</span>
+  {
+    ?イヤホン a ns:イヤホン <span class="token punctuation">;</span>
+              ns:price ?価格 <span class="token punctuation">;</span>
+              ns:continuousPlaybackTime ?連続再生時間 <span class="token punctuation">;</span>
+              ns:has<span class="token operator">-</span>a ns:LC3 <span class="token punctuation">;</span>
+              ns:<span class="token operator">is</span><span class="token operator">-</span>a ?装着タイプ <span class="token punctuation">.</span>
+    ?装着タイプ a ns:装着タイプ <span class="token punctuation">.</span>
+    BIND<span class="token punctuation">(</span><span class="token string">"LC3"</span> <span class="token keyword keyword-AS">AS</span> ?機能<span class="token punctuation">)</span>
+  }
+}
+</code></pre><p>結果</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_True_Wireless_4	"43000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"7.5h"	"aptX_Adaptive"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#Ultra_Open_Earbuds	"33000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"7.5h"	"aptX_Adaptive"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#耳かけ型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#EarFun_Air_Pro_3	"6500"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"9h"	"aptX_Adaptive"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#QuietComfort_Ultra_Earbuds	"26000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"6h"	"aptX_Adaptive"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#インナーイヤー型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#PerL_Pro_AH-C15PL	"32000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"8h"	"aptX_Adaptive"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#MOMENTUM_True_Wireless_4	"43000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"7.5h"	"LC3"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#WF-1000XM5	"28000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"12h"	"LC3"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型	
+http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#LinkBuds_S_WF-LS900N	"18000"^^&lt;http://www.w3.org/2001/XMLSchema#integer&gt;	"9h"	"LC3"	http://www.semanticweb.org/yamaguchi/ontologies/2024/6/untitled-ontology-80#カナル型
+</code></pre><h3 id="作成したオントロジの規模-その活用規模を表す数値を列挙する">作成したオントロジの規模、その活用規模を表す数値を列挙する </h3>
+<ul>
+<li>設計したクラスの数</li>
+<li>設計したインスタンスの数</li>
+<li>設計したプロパティの数</li>
+<li>.owlファイルの行数 (XMLファイルの行数をwcでカウント、テキストエディタで確認)</li>
+<li>Sparqlのクエリ数　（クエリ実行のパターン数）</li>
+<li>トータルのSparql行数</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>定量パラメタ</th>
+<th>数値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>クラス数</td>
+<td>11</td>
+</tr>
+<tr>
+<td>インスタンス数</td>
+<td>103</td>
+</tr>
+<tr>
+<td>プロパティ数</td>
+<td>7</td>
+</tr>
+<tr>
+<td>.owl行数</td>
+<td>2093</td>
+</tr>
+<tr>
+<td>Sparqlクエリ数</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Sparql行数</td>
+<td>59</td>
+</tr>
+</tbody>
+</table>
+<h3 id="分析評価考察">分析・評価・考察 </h3>
+<ul>
+<li>選定理由、なぜこのテーマを選定したか？</li>
+<li>深く専門的な知識の所在</li>
+<li>ユーザへの寄与・貢献、ユーザにどのように活用してほしいか</li>
+<li>差異化要素、強みと特徴点</li>
+<li>共通語彙、プロパティの使い方で自ら発見した知見</li>
+<li>クラスとインスタンスの違いで発見した知見</li>
+<li>オントロジ設計で貫いたポリシー</li>
+<li>創意工夫のポイント</li>
+<li>オントロジエディタの使い方で習得した技法</li>
+<li>作業を通じて得られた知見</li>
+</ul>
+<h3 id="評価の観点">評価の観点 </h3>
+<ul>
+<li>独創性と丁寧な設計</li>
+<li>差異化性（既存と異なる付加価値）</li>
+<li>深さ　（表面的でなく、知識に深みがある）</li>
+<li>設計思想　（どのような思いでデザインしたか）</li>
+<li>見通しの良さ、設計のわかりやすさ</li>
+<li>is-a, has-a, 主語・述語・目的語の簡明さ</li>
+<li>共通語彙の活用度</li>
+<li>Sparqlの量・質・複雑さ・多様さ</li>
+</ul>
+<h3 id="ai実習全体を振り返り-考察分析展望">AI実習全体を振り返り、考察・分析・展望 </h3>
+<ul>
+<li>AI実習（知識工学系）で得た知見を今後どのように活用するか</li>
+<li>具体的な知識データの活用方法</li>
+<li>機械学習、生成系AIとの効果的な連携方法</li>
+</ul>
+<p>AI実習を通して、RDFやXMLを用いた知識の表現方法を学ぶことができた。また、これらを実際に使って知識を表現していく際には、どのような要件が必要になってくるのかを講義を通して学ぶことができた。また、物同士の関連性などを調べる際に、RDFを活用したいと考える。また、SPARQLの構文についても学ぶことができたため、これを活用して、より複雑な条件でオントロジに対して検索をかけたり、データの特徴について、分析する際に活用していきたいと考える。また、オントロジやRDFで定義された概念や情報を利用することで、機械学習モデルに必要な特徴量を生成するなどの連携方法があるのではないかと考える。</p>
+<hr>
+<h3 id="第13回グループ課題の要約整理">第13回グループ課題の要約・整理 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>青雲の志</strong></td>
+<td>竹田</td>
+<td>家電のクエリについて作り始めたため、本日はクエリについてはあまりできていない。データプロパティとして、URLなどを記入。扇風機について作ったが、役割分担して作業を行なった。</td>
+<td>本日の講義では、複雑なクエリを作成し実行するという要件であるため、役割分担して複雑なクエリをできるようにしてほしいという質問が出た。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>鵬程万里</strong></td>
+<td>小柳・小出・安達</td>
+<td>小柳：山についてのクエリを作成。地域に絞って１５００メートル以上で検索した。小出：ポケモンについてのタイプを表示する際に、フィルターをかけて、タイプを表示させることができた。特定の事務所に所属している俳優の名前を表示させるクエリを作成。また、俳優の主な出演作品を絞って検索するクエリを作成した。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>金剛不壊</strong></td>
+<td>相場</td>
+<td>ウィキデータを使って、プログラミング言語について検索。プログラミング言語の中から、C言語から影響を受けている言語について検索。2000年以降というフィルターをかけている。その言語で書かれたソフトウェアについて書きたかったが、うまくできなかった。</td>
+<td>意図した結果は出ているかという質問が出たが、出ていると言っていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>破竹の勢</strong></td>
+<td>倉石</td>
+<td>ウィキデータに対してクエリを送信。プログラムを実行すると、ランダムなサブジェクトが出てきて、サブジェクトに対して、述語がでてくる。それらを選択していくことで、ウィキデータを探索するようにできたら良いなという風にプログラムを作成。</td>
+<td>対話的に絞り込んでいくということはいいことだと思う。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>磐石之固</strong></td>
+<td>加藤</td>
+<td>ポケモンについてのオントロジに対して、クエリを作成。特性・進化方法を追加して、複雑なクエリを作成できるように工夫。特性で絞り込んで、ナンバー順に表示させるというクエリを作成。また、進化方法で絞り込んで検索するクエリを作成。</td>
+<td>ORを使えばもう少し複雑なクエリにして、複数の対象を検索することができたのではないかということが言われていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>飛龍在天</strong></td>
+<td>大竹</td>
+<td>ウィキデータクエリでポケモンについて検索。第９世代までについてのポケモンから、世代別でポケモンについて絞り込みをした。第何世代のポケモンかという点と、No.と、名前について検索。</td>
+<td>自分が深く知っているものに対して検索するのは良いと思うと述べていた。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="第14回グループ課題の要約整理">第14回グループ課題の要約・整理 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>青雲の志</strong></td>
+<td>発表なし</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>破竹の勢</strong></td>
+<td>発表なし</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>飛龍在天</strong></td>
+<td>大竹</td>
+<td>スピーカーのオントロジを作成した。クラスとしてメーカーや機械の情報を設定している。連携機能がついているかなどを今後追加していきたいと考えている。どの層に向けての商品なのかを分けて制作していこうと考えている。スパークルの検索はスピーカーを買いに来た際にイヤホンやマイクが欲しくなることを想定しているためそれに伴った情報を追加していきたいと考えている。</td>
+<td>コメント：お風呂で使えるスピーカーの基準の情報を入れたら検索が可能になるためありがたい。スマートスピーカーの電力の情報も記述できたら良いと思う。</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>鵬程万里</strong></td>
+<td>発表なし</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>金剛不壊</strong></td>
+<td>ロジャー</td>
+<td>開志ラボにある機器のオントロジを作成。自動的な機械とマニュアル的な機械の二つを分類した。今後はHTMLやJSを利用してデータの検索ができるようにしたいと考えている。</td>
+<td>Q,自動的なものとマニュアル的なものに分けたとあるが、人の手で動かすものと自動的に動かすものという認識であっているか。A,実際に手を動かして行うものなので作業自体の方法によって変えている。A,どういうスパークルを考えたか。Q,クラスを出してどういったインスタンスがあるのかということや、インスタンスからどのようなクラスがあるのかということを調査するもの。</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>磐石之固</strong></td>
+<td>五十嵐寛人、池田、駒木根</td>
+<td>五十嵐→イヤホンのオントロジを作成した。イヤホンの種類、特徴、機能などをクラスに設定した。スパークルでの検索はAppleの製品を検索すると価格などの情報を表示する。また、今後はサイズや色などの情報を入れていきたいと考えている。池田→カメラのオントロジを作成した。メーカー、価格、ボディ色、画素数、レンズマウントなどの情報を入れる。クラスとしてカメラの名前、カメラの情報を入れていく。駒木根→冷蔵庫のオントロジを作成した。ユーザーはお金持ちで奥さんが料理好きな素人を想定している。クラスとした、メーカー、昨日、色、価格などを設定している。スパークルの検索では価格を考慮せずに検索をかけることを想定している。</td>
+<td>Q,プロの場合はどのようにスパークル検索を行うのか。A,動物を撮る場合はブレ防止などが重要なので、その段階ごとに検索をすることを想定している。Q,価格以外に選ぶ要素はあるのか。A,冷蔵庫の機能で選べるようにする。また、is-a,has-a関係をしっかり記述する。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="第15回グループ課題の要約整理">第15回グループ課題の要約・整理 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>青雲の志</strong></td>
+<td>竹田</td>
+<td>モニターとその周辺の機器についてのオントロジ。モニターとモニターアームについてオントロジに入力できている。データプロパティを充実させ、モニターの重量・解像度などを入力できるようにした。SPARQLで保証期間が2年以上で、長い順に表示させるというクエリを作成。</td>
+<td>複合検索ができているかという質問について、複数の条件を指定して検索することができているのでできているのではないかと述べた。プロパティを複雑にしないと検索の際に、絞り込みがしづらいので良いのではないかということを言っていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>破竹の勢</strong></td>
+<td>倉石</td>
+<td>キーボードについてのオントロジ。キーボードの配列やスイッチのタイプなど複雑であるため、奥が深いのでクラスが複数できた。想定するユースケースとしては、細かく検索できるようにしたかったため、素材などについても検索できるようにした。クエリの方はまだできていない。</td>
+<td>キーキャップに重さがあり、グラム数によって検索できるのかという質問について、現在は検索できないのでオントロジに追加したいと考えている。ゲームで、キーボードが両手だけでは足りないので、足でも操作できるキーボードがあるのかという質問について、キーボードは手で操作するものだと考えているので、知らないと答えていた。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>飛龍在天</strong></td>
+<td>大竹・川崎・阿部</td>
+<td>大竹：オーディオ機器についてのオントロジ。ブランドをクラスに持ってきた。現在は、クエリ検索が軽くできて、フィルターとしてオーディオ機器のタイプで検索できる。複合検索できるようにしていきたいと考えている。阿部:スマホについてのオントロジ。IOSとアンドロイド。複合条件を入れて検索できるようにしていきたいと述べた。川崎:スマホについてのオントロジ。RAMとROMで検索できるようにした。</td>
+<td>スマホについて被っていたが、どのように差別化するのかという質問について、発売日などを追加していきたいと考えている。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>鵬程万里</strong></td>
+<td>安達</td>
+<td>コスメについてのオントロジ。アイシャドウに特化したオントロジを作成。人間の肌は４つのタイプに分けることができ、その肌のタイプに合ったアイシャドウを検索できるオントロジにしたいと考えて作成した。ブランド・アイシャドウの種類・パーソナルカラーなどにクラスを分けた。型番ごとに向いているパーソナルカラーと関連づけていくことができたら良いなと考えている。</td>
+<td>肌のタイプについて、どのようなものかという質問について、それぞれ説明してくれた。ブランドの発祥国を３つに分けた理由として、有名なコスメブランドがそれぞれ３つの国にあると考えたため。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>金剛不壊</strong></td>
+<td>ロジャー</td>
+<td>kaishi LABのための検索エンジン。管理者のためのもの。管理者がものについての情報を得られるようにする。実際に機械を検索することができて、それらについての詳細を見ることができるようになっている。</td>
+<td>ハンダゴテについて検索できるかということについて、現在は入っていないが今後入れるつもりだと答えていた。これは、今ある開志ラボの機械が出るのかという質問について、そうだといっていた。また、カテゴリと商品のブランドなどについてボタンで検索できるようにしたいと考えている。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>磐石之固</strong></td>
+<td>加藤・五十嵐</td>
+<td>加藤:たこ焼き機について。商品名・メーカーのインディビジュアルを描いた。コメントで検索したい単語を絞り込んで検索できるようにしたいと考えた。五十嵐:イヤホンのオントロジ。クラスが多くて見にくかったため、減らした。検索して、つながりが見れるようにした。sparqlでフィルターをかけれるようになった。</td>
+<td>たこ焼き機について、特徴的な部分（長所）からの検索をできるようにしたいということを考えている。重さや音質などで検索できるようにしたいと考えている。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="自己成長-成果-上位成績に向けて-個人成果の報告">[自己成長、成果、上位成績に向けて]　個人成果の報告 </h3>
+<p>このテーマを選んだ理由として、イヤホン・ヘッドホンにはさまざまな要素があり、人によって重要視する要素が違うため、それらの要素をオントロジに入れることで、イヤホン・ヘッドホンを買う人にとって有用なオントロジを作成できるのではないかと考えたからである。専門的な知識であるコーデックや防塵、防水についても記入し、コメントでわかりやすくした。ユーザには、イヤホン・ヘッドホンを購入する際に、さまざまな要素から絞り込みして条件に合ったものを検索できるので、絞り込みをして購入の際の参考にしてほしいと考える。差異化要素として、イヤホン・ヘッドホンが防水や防塵にどの程度対応しているのかという点について、オントロジを使って検索できるという点である。また、複数の要素を、イヤホン・ヘッドホンの情報として、関連づけてあるため、さまざまな複合条件による検索が可能であるという点が、差異化要素である。工夫した点として、性能に関する情報をオントロジに多く記入したことである。これによって、性能の面からさまざまな条件で、イヤホン・ヘッドホンについての検索ができるようになっている。クラスとインスタンスとの違いで発見した知見として、クラスの中には、そのクラスをより詳しく分けたものを入れるということがわかった。たとえば、イヤホンというクラスには、インスタンスとして、イヤホンの名称を入れるべきということについて理解することができた。</p>
+<hr>
+<h2 id="注意事項">注意事項 </h2>
+<ul>
+<li>直近3回分の個人演習と毎回のグループ課題の実施結果について、</li>
+<li>学生ごとの個人のレポートとする</li>
+<li>他の学生のレポートをコピー＆ペーストしたことが発覚した場合、<strong>不正行為とみなし 、規程に基づく懲罰適用の可能性があるので絶対にやってはいけない</strong></li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>(<a href="https://www.bing.com/videos/riverview/relatedvideo?q=%e3%83%9e%e3%83%bc%e3%82%af%e3%83%80%e3%82%a6%e3%83%b3%e8%a8%98%e6%b3%95&amp;mid=4EE93F5EF42F9CAD0CCC4EE93F5EF42F9CAD0CCC&amp;FORM=VIRE">https://www.bing.com/videos/riverview/relatedvideo?q=マークダウン記法&amp;mid=4EE93F5EF42F9CAD0CCC4EE93F5EF42F9CAD0CCC&amp;FORM=VIRE</a>)マークダウン記法とは？ <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>(<a href="https://qiita.com/miriwo/items/28d80f46c857de49f34b">https://qiita.com/miriwo/items/28d80f46c857de49f34b</a>) Markdown記法～基礎編～ <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>(<a href="https://www.sejuku.net/blog/77398">https://www.sejuku.net/blog/77398</a>)マークダウン記法一覧 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>(<a href="https://backlog.com/ja/blog/how-to-write-markdown/">https://backlog.com/ja/blog/how-to-write-markdown/</a>)マークダウンの書き方 <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
